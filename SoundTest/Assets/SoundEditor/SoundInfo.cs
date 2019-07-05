@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using System.Xml;
+using System.IO;
+using System;
+
+
 
 public class SoundInfo : MonoBehaviour
 {
@@ -14,10 +17,8 @@ public class SoundInfo : MonoBehaviour
     public Slider timeSlider;
     bool onMusic = true;
 
-    public static List<float> musicScore = new List<float>();
-    public  List<float> musicScore_ = new List<float>();
-
-    int tmpNum;
+    public List<string> musicScore = new List<string>();
+    public List<float> musicScore_ = new List<float>();
 
     // Start is called before the first frame update
     void Start()
@@ -25,12 +26,26 @@ public class SoundInfo : MonoBehaviour
         source = GetComponent<AudioSource>();
         clip = source.clip;
 
+        //再生バーの終了位置セット
         timeSlider.maxValue = clip.length;
+
+        //str = File.ReadAllLines("aaa.txt");
+
+        //キャスト
+        musicScore_.AddRange(Array.ConvertAll<string, float>(File.ReadAllLines("aaa.txt"), delegate (string value)
+        {
+            return float.Parse(value);
+        }));
+        musicScore.AddRange(File.ReadAllLines("aaa.txt"));
     }
 
     // Update is called once per frame
     void Update()
     {
+        //0の排除とソート
+        musicScore.Remove("0");
+        musicScore.Sort();
+
         //BGMの再生時間と再生バーをリンク
         if (onMusic) timeSlider.value = source.time;
 
@@ -41,7 +56,6 @@ public class SoundInfo : MonoBehaviour
             onMusic = false;
         }
 
-
         if (Input.GetKeyDown(KeyCode.Space))
         {
             source.time = timeSlider.value; //再生バーの位置とBGM再生位置をリンク
@@ -49,15 +63,20 @@ public class SoundInfo : MonoBehaviour
             source.Play();                  //BGM再生
         }
 
+        //Rを押したら時間を記録する
         if (Input.GetKeyDown(KeyCode.R))
         {
-            musicScore.Add(source.time);
-            musicScore_.Add(source.time);
+            musicScore.Add(source.time.ToString());
+        }
+
+        //Sを押したら保存する
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            File.WriteAllLines("aaa.txt", musicScore);
         }
 
         //消す
-        musicScore_.Remove(0);
-        //ソート
-        musicScore_.Sort();
+        if (musicScore.Contains("0")) musicScore.Remove("0");
+
     }
 }
