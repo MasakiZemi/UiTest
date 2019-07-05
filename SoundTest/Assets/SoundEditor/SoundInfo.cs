@@ -17,6 +17,8 @@ public class SoundInfo : MonoBehaviour
     public static List<float> musicScore = new List<float>();
     public  List<float> musicScore_ = new List<float>();
 
+    int tmpNum;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -53,6 +55,9 @@ public class SoundInfo : MonoBehaviour
             musicScore_.Add(source.time);
         }
 
-
+        //消す
+        musicScore_.Remove(0);
+        //ソート
+        musicScore_.Sort();
     }
 }
