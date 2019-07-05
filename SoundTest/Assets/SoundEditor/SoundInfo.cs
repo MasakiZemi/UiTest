@@ -2,14 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Xml;
 
 public class SoundInfo : MonoBehaviour
 {
     AudioSource source;
     AudioClip clip;
 
+    public string title = "test1";
+
     public Slider timeSlider;
     bool onMusic = true;
+
+    public static List<float> musicScore = new List<float>();
+    public  List<float> musicScore_ = new List<float>();
 
     // Start is called before the first frame update
     void Start()
@@ -40,5 +46,13 @@ public class SoundInfo : MonoBehaviour
             onMusic = true;
             source.Play();                  //BGM再生
         }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            musicScore.Add(source.time);
+            musicScore_.Add(source.time);
+        }
+
+
     }
 }
