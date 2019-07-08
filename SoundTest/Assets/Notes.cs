@@ -19,8 +19,41 @@ public class Notes : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!RorL)rect.localPosition += Vector3.right * speed * Time.deltaTime;
-        if(RorL) rect.localPosition += Vector3.left * speed * Time.deltaTime;
-        Destroy(gameObject, 2.35f);
+        if (!RorL)
+        {
+            rect.localPosition += Vector3.right * speed * Time.deltaTime;
+            if (0 < rect.localPosition.x)
+            {
+                //ExHitObj.isExHit = false;
+                Destroy(gameObject,0.1f);
+            }
+        }
+        if (RorL)
+        {
+            rect.localPosition += Vector3.left * speed * Time.deltaTime;
+            if (0 > rect.localPosition.x)
+            {
+                //ExHitObj.isExHit = false;
+                Destroy(gameObject,0.1f);
+            }
+        }
+
+    }
+
+    void OnTriggerStay(Collider other)
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && RorL)
+        {
+            if (other.gameObject.tag == "ExcellentHit")
+            {
+                Debug.Log("Excellent!!");
+            }
+            else if (other.gameObject.tag == "GoodHit")
+            {
+                Debug.Log("Good!!");
+            }
+        }
+
+
     }
 }
