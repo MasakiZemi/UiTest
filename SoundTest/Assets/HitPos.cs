@@ -24,15 +24,15 @@ public class HitPos : MonoBehaviour
         notesRightPos = BeatUi.notesRights[0].GetComponent<RectTransform>().localPosition.x;
 
         //バグありリストをどうにかして直す
-        if (BeatUi.notesLefts[0] == null) BeatUi.notesLefts.RemoveAt(0);
 
         //Debug.Log(BeatUi.notesLefts[0].name);
-        if (notesLeftPos >= -300f)
+        if (notesLeftPos >= -150f && notesLeftPos < 1f)
         {
             obj = BeatUi.notesLefts[0];
 
             if (Input.GetKeyDown(KeyCode.Space))
             {
+                BeatUi.notesLefts.Remove(obj);
                 if (notesLeftPos <= 0f && notesLeftPos >= -30f)
                 {
                     Debug.Log("Excellent!!");
@@ -43,19 +43,18 @@ public class HitPos : MonoBehaviour
                     Debug.Log("Good!!");
                     Destroy(obj);
                 }
-                if (notesLeftPos < -60f && notesLeftPos >= -300f)
+                if (notesLeftPos < -60f && notesLeftPos >= -150f)
                 {
                     Debug.Log("Bad!!");
                     Destroy(obj);
                 }
             }
-            if (notesLeftPos > 2)
-            {
-                Destroy(obj);
-            }
-
         }
-
+        else
+        {
+            BeatUi.notesLefts.Remove(obj);
+            Destroy(obj);
+        }
 
         //if (notesRightPos > -100f)
         //{
