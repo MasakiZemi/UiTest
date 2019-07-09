@@ -24,8 +24,7 @@ public class Notes : MonoBehaviour
             rect.localPosition += Vector3.right * speed * Time.deltaTime;
             if (0 < rect.localPosition.x)
             {
-                //ExHitObj.isExHit = false;
-                Destroy(gameObject,0.1f);
+                //Destroy(gameObject, 0.1f);
             }
         }
         if (RorL)
@@ -33,27 +32,8 @@ public class Notes : MonoBehaviour
             rect.localPosition += Vector3.left * speed * Time.deltaTime;
             if (0 > rect.localPosition.x)
             {
-                //ExHitObj.isExHit = false;
-                Destroy(gameObject,0.1f);
+                //Destroy(gameObject, 0.1f);
             }
         }
-
-    }
-
-    void OnTriggerStay(Collider other)
-    {
-        if (Input.GetKeyDown(KeyCode.Space) && RorL)
-        {
-            if (other.gameObject.tag == "ExcellentHit")
-            {
-                Debug.Log("Excellent!!");
-            }
-            else if (other.gameObject.tag == "GoodHit")
-            {
-                Debug.Log("Good!!");
-            }
-        }
-
-
     }
 }
