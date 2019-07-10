@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HitPos : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class HitPos : MonoBehaviour
     float notesRightPos;
 
     GameObject obj;
+    GameObject obj1;
 
     // Start is called before the first frame update
     void Start()
@@ -23,44 +25,64 @@ public class HitPos : MonoBehaviour
         notesLeftPos = BeatUi.notesLefts[0].GetComponent<RectTransform>().localPosition.x;
         notesRightPos = BeatUi.notesRights[0].GetComponent<RectTransform>().localPosition.x;
 
-        //バグありリストをどうにかして直す
-
-        //Debug.Log(BeatUi.notesLefts[0].name);
-        if (notesLeftPos >= -150f && notesLeftPos < 1f)
+        //左のノーツの処理
+        if (notesLeftPos >= -150f && notesLeftPos < 100f)
         {
             obj = BeatUi.notesLefts[0];
 
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                BeatUi.notesLefts.Remove(obj);
-                if (notesLeftPos <= 0f && notesLeftPos >= -30f)
+                if (notesLeftPos <= 50f && notesLeftPos >= -30f)
                 {
                     Debug.Log("Excellent!!");
-                    Destroy(obj);
                 }
                 if (notesLeftPos < -30f && notesLeftPos >= -60f)
                 {
                     Debug.Log("Good!!");
-                    Destroy(obj);
                 }
                 if (notesLeftPos < -60f && notesLeftPos >= -150f)
                 {
                     Debug.Log("Bad!!");
-                    Destroy(obj);
                 }
+                BeatUi.notesLefts.RemoveAt(0);
+                Destroy(obj);
             }
         }
-        else
+        if (!Input.GetKeyDown(KeyCode.Space))
         {
-            BeatUi.notesLefts.Remove(obj);
-            Destroy(obj);
+            if(notesLeftPos > 1f)
+            {
+                obj.GetComponent<Image>().color = Color.clear;
+            }
+            if (notesLeftPos > 100f)
+            {
+                BeatUi.notesLefts.RemoveAt(0);
+                Destroy(obj);
+            }
         }
 
-        //if (notesRightPos > -100f)
-        //{
-        //    GameObject obj1 = BeatUi.notesRights[0];
-        //    BeatUi.notesRights.RemoveAt(0);
-        //    Destroy(obj1);
-        //}
+        //右のノーツの処理
+        if (notesRightPos <= 150f && notesRightPos > -100f)
+        {
+            obj1 = BeatUi.notesRights[0];
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                BeatUi.notesRights.RemoveAt(0);
+                Destroy(obj1);
+            }
+        }
+        if (!Input.GetKeyDown(KeyCode.Space))
+        {
+            if (notesRightPos < -1f)
+            {
+                obj1.GetComponent<Image>().enabled = false;
+            }
+            if (notesRightPos < -100f)
+            {
+                BeatUi.notesRights.RemoveAt(0);
+                Destroy(obj1);
+            }
+        }
     }
 }

@@ -11,8 +11,6 @@ GameObject:
   - component: {fileID: 622426339304136594}
   - component: {fileID: 2777894605856647900}
   - component: {fileID: 2537713334853128692}
-  - component: {fileID: 7534214143957525314}
-  - component: {fileID: 6424191989348543851}
   - component: {fileID: 1171137425757729319}
   m_Layer: 5
   m_Name: NotesLeft
@@ -20,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &622426339304136594
 RectTransform:
   m_ObjectHideFlags: 0
@@ -77,35 +75,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!54 &7534214143957525314
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1496428403685680551}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!65 &6424191989348543851
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1496428403685680551}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 30, y: 70, z: 5}
-  m_Center: {x: 0, y: -35, z: 0}
 --- !u!114 &1171137425757729319
 MonoBehaviour:
   m_ObjectHideFlags: 0
