@@ -76,7 +76,7 @@ public class HitPos : MonoBehaviour
         {
             if (notesRightPos < -1f)
             {
-                obj1.GetComponent<Image>().enabled = false;
+                obj1.GetComponent<Image>().color = Color.clear;
             }
             if (notesRightPos < -100f)
             {
