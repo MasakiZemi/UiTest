@@ -6,6 +6,7 @@ public class BigBloc : MonoBehaviour
 {
     public GameObject bloc;
     public int num;
+    public 
 
     List<GameObject> blocs = new List<GameObject>();
 
