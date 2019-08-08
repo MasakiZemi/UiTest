@@ -5,7 +5,7 @@ using UnityEngine;
 public class InstantBloc : MonoBehaviour
 {
 
-    public GameObject bloc;
+    public GameObject groundBloc;
 
     public Material material1;
     public Material material2;
@@ -37,11 +37,11 @@ public class InstantBloc : MonoBehaviour
             {
                 if (timer > 0.05f)
                 {
-                    x = 0f;
+                    x = -0.8f;
                     for (int j = 0; j < side; j++)
                     {
                         x += 0.4f;
-                        blocs.Add(Instantiate(bloc, new Vector3(x, 0, z), Quaternion.Euler(0, 0, 0)) as GameObject);
+                        blocs.Add(Instantiate(groundBloc, new Vector3(x, 0, z), Quaternion.Euler(0, 0, 0)) as GameObject);
                     }
                     z += 0.4f;
                     timer = 0;
@@ -51,12 +51,11 @@ public class InstantBloc : MonoBehaviour
         else
         {
 
-            //
+            //色を変える
             if (Music.IsPlaying && Music.IsJustChangedBar())
             {
                 num = (num + 1) % 2;
-                
-                
+
                 for (int i = 0; i < blocs.Count; i++)
                 {
                     if (i % 2 == num)
@@ -69,6 +68,10 @@ public class InstantBloc : MonoBehaviour
                     }
                 }
             }
+
+            //
+
+
         }
     }
 }
