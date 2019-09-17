@@ -12,6 +12,8 @@ public class BeatUi : MonoBehaviour
     public static List<GameObject> notesLefts = new List<GameObject>();
     public static List<GameObject> notesRights = new List<GameObject>();
 
+    public static bool isNotesPopUp = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +32,9 @@ public class BeatUi : MonoBehaviour
             GameObject prefab1 = Instantiate(notesRight) as GameObject;
             prefab1.transform.SetParent(canvas.transform, false);
             notesRights.Add(prefab1);
+
+            //インデックス外を防ぐやつ
+            isNotesPopUp = true;
         }
     }
 }
