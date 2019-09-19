@@ -12,7 +12,7 @@ public class BeatUi : MonoBehaviour
     public static List<GameObject> notesLefts = new List<GameObject>();
     public static List<GameObject> notesRights = new List<GameObject>();
 
-    public static bool isNotesPopUp = false;
+    public static bool isNotesPopUp { get; set; }
 
     // Start is called before the first frame update
     void Start()
