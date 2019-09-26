@@ -25,6 +25,7 @@ public class PlActionClass : MonoBehaviour
     int barCount;
     float timer;
 
+    //public PlAttackAction action;
 
     // Start is called before the first frame update
     void Start()
@@ -85,52 +86,54 @@ public class PlActionClass : MonoBehaviour
         }
 
         //遅延
-        timer += 1.0f * Time.deltaTime;
-        if (actionTrigger)
-        {
-            if (timer > 0.01f)
-            {
-                //攻撃処理
-                if (0 < plAct.attackStep)
-                {
-                    Attack();
-                    plAct.attackStep--;
-                }
+        //timer += 1.0f * Time.deltaTime;
+        //if (actionTrigger)
+        //{
+        //    //if (timer > 0.01f)
+        //    //{
+        //        //攻撃処理
+        //        if (0 < plAct.attackStep)
+        //        {
+        //            Attack();
+        //            plAct.attackStep--;
+        //        }
 
-                //防御処理
-                if (0 < plAct.defenseStep)
-                {
-                    Defense();
-                    plAct.defenseStep--;
-                }
+        //        //防御処理
+        //        if (0 < plAct.defenseStep)
+        //        {
+        //            Defense();
+        //            plAct.defenseStep--;
+        //        }
 
-                //サポート
-                if (0 < plAct.supportStep)
-                {
-                    Support();
-                    plAct.supportStep--;
-                }
+        //        //サポート
+        //        if (0 < plAct.supportStep)
+        //        {
+        //            Support();
+        //            plAct.supportStep--;
+        //        }
 
-                //4回処理を行ったら処理を止める
-                barCount++;
-                timer = 0;
-                if (barCount > 4) actionTrigger = false;
-            }
-        }
+        //        //4回処理を行ったら処理を止める
+        //        barCount++;
+        //        timer = 0;
+        //        if (barCount > 4) actionTrigger = false;
+        //   // }
+        //}
 
     }
 
 
     //
-    public GameObject attackObj;
+    //public GameObject attackObj;
 
     //攻撃処理
     public void Attack()
     {
+        
         Debug.Log("攻撃");
 
         //召喚位置の処理
-
+        PlAttackAction.onRollSword = true;
+        //action.RollSword();
     }
 
     //防御処理
