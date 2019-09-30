@@ -34,6 +34,17 @@ public class plAttackControl2 : MonoBehaviour
     {
         if (Music.IsPlaying && Music.IsJustChangedBar())
         {
+            //発動の式を書く
+
+            //スポーン
+            PlAttackAction.onRollSwordSpawn = false;
+
+            //発動に必要なフラグだけど、いらない気がする
+            PlAttackAction.onRollSword = true;
+
+            //発動する攻撃の種類の式を書く
+
+
             //初期化
             plAct.Refresh();
         }

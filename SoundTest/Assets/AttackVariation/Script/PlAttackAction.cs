@@ -10,7 +10,8 @@ public class PlAttackAction : MonoBehaviour
     public GameObject centerTarget;
 
     public static bool onRollSword { get; set; }
-    
+    public static bool onRollSwordSpawn { get; set; }
+
 
     //くるくると回ってからターゲットに向かって放たれる
     [System.Serializable]
@@ -68,7 +69,9 @@ public class PlAttackAction : MonoBehaviour
         if (onRollSword)
         {
             RollSword();
-            
+
+            //再生成防ぐやつ
+            GOBP.onGate = onRollSwordSpawn;
         }
     }
 
@@ -86,6 +89,8 @@ public class PlAttackAction : MonoBehaviour
                 Vector3 v3 = CirclePos(GOBP.swordCount, new Vector3(50, 50, 0), i);
                 GOBP.gate.Add(Instantiate(GOBP.swordObj, v3, new Quaternion()));
             }
+
+            //無限生成防ぐやつ
             GOBP.onGate = true;
         }
     }
