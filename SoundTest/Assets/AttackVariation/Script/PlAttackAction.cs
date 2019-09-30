@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class PlAttackAction : MonoBehaviour
 {
-    
+
     float timer;
-    //float r;
     public GameObject centerTarget;
 
-    public static bool onRollSword { get; set; }
-    public static bool onRollSwordSpawn { get; set; }
+    //攻撃入力時の受け渡し用
+    public static int rollSwordCount { get; set; }
 
 
     //くるくると回ってからターゲットに向かって放たれる
@@ -23,20 +22,14 @@ public class PlAttackAction : MonoBehaviour
         public float speed = 5;
         public float waitTime = 0.5f;
         public int swordCount = 4;
+        public float radius = 50;
 
-        [Header( "使わないやつ")]
+        [Header("使わないやつ")]
         public List<GameObject> swordList = new List<GameObject>();
-        public float brake = 1;
-        public bool onSword;
+        public bool onSword = true;
     }
     public RollSwordParameter RSP = new RollSwordParameter();
 
-
-    public class CrossSwordParameter
-    {
-        public GameObject target1;
-    }
-    //public RollSwordParameter CSR = new RollSwordParameter();
 
     //王の宝物庫
     [System.Serializable]
@@ -59,20 +52,16 @@ public class PlAttackAction : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        //生成時に剣の生成数を決める
+        RSP.swordCount = rollSwordCount;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //
-        if (onRollSword)
-        {
-            RollSword();
 
-            //再生成防ぐやつ
-            GOBP.onGate = onRollSwordSpawn;
-        }
+        RollSword();
+
     }
 
     //途中
@@ -86,7 +75,7 @@ public class PlAttackAction : MonoBehaviour
             for (int i = 0; i < RSP.swordCount; i++)
             {
                 //距離の変数を用意すること
-                Vector3 v3 = CirclePos(GOBP.swordCount, new Vector3(50, 50, 0), i);
+                Vector3 v3 = CirclePos(GOBP.swordCount, 50, i, Vector3.zero);
                 GOBP.gate.Add(Instantiate(GOBP.swordObj, v3, new Quaternion()));
             }
 
@@ -103,52 +92,61 @@ public class PlAttackAction : MonoBehaviour
         //遅延
         timer += 1.0f * Time.deltaTime;
 
-        //オブジェクト生成
         if (!RSP.onSword)
         {
             for (int i = 0; i < RSP.swordCount; i++)
             {
-                //距離の変数を用意すること
-                Vector3 v3 = CirclePos(RSP.swordCount, new Vector3(50, 50, 0), i);
+                //半円上に剣を生成する
+                Vector3 v3 = CirclePos(RSP.swordCount - 1, RSP.radius, i, Vector3.zero);
                 RSP.swordList.Add(Instantiate(RSP.swordObj, v3, new Quaternion()));
             }
+            //次から生成しないようにする
             RSP.onSword = true;
         }
 
-       //生成した数分だけ操作する
+        //生成した数分だけ操作する
         foreach (GameObject sword in RSP.swordList)
         {
-            wait +=0.2f ;
+            wait += 0.2f;
 
+            //回転して数秒立つとターゲットの方を見る
             if (timer > RSP.waitTime)
             {
-                //ターゲットの方向を見る
                 sword.transform.LookAt(RSP.target.transform);
 
+                //ターゲットを見た後数秒後にターゲットに向かって剣が飛んでいく
                 if (timer > RSP.waitTime + wait)
                 {
-                    //飛んでいく
-                    sword.transform.position = Vector3.MoveTowards(sword.transform.position, RSP.target.transform.position, RSP.speed * Time.fixedTime * Time.fixedTime);
+                    sword.transform.position = Vector3.MoveTowards(sword.transform.position, RSP.target.transform.position, RSP.speed * RSP.speed * Time.deltaTime);
                 }
             }
             else
             {
                 //初めの回転演出
-                RSP.brake++;
                 sword.transform.Rotate(RSP.rollSpeed, 0, 0);
             }
         }
     }
 
+
     //配置用
-    Vector3 CirclePos(int count, Vector3 pos, int swordNum)
+    Vector3 CirclePos(int count, float radius, int swordNum, Vector3 pos)
     {
-        float r = 180 / count * swordNum;
-        //float r = 360 / count * swordNum;
-        //float angle = r * Mathf.Deg2Rad;
-        float angle = r ;
-        pos.x = Vector3.Distance(centerTarget.transform.position, pos) * Mathf.Cos(angle);
-        pos.y = Vector3.Distance(centerTarget.transform.position, pos) * Mathf.Sin(angle);
+        if (count != 0)
+        {
+            //きれいに半円状にに出すやつ
+            float r = (180 / count) * swordNum;
+
+            float angle = r * Mathf.Deg2Rad;
+            pos.x = radius * Mathf.Cos(angle);
+            pos.y = radius * Mathf.Sin(angle);
+        }
+        else
+        {
+            pos.x = 0;
+            pos.y = radius;
+        }
+
         return pos;
     }
 

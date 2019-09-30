@@ -16,6 +16,7 @@ public class HitPos : MonoBehaviour
 
     KeyCode NotesKeyName;
 
+    //判定を渡すよう
     enum RANK { Bad,Good,Excellent}
 
 

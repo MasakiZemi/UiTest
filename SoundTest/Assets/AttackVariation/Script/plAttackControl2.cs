@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class plAttackControl2 : MonoBehaviour
 {
+    //マネージャーを生成してスキルを出すためのオブジェクトを入れる
+    public GameObject plAttacManagerObj;
 
-    struct PlayerAction
+    //[System.Serializable]
+    public struct PlayerAction      //スキルカウント用
     {
         public List<int> melodyList;
         public int attackStep;
@@ -19,23 +22,20 @@ public class plAttackControl2 : MonoBehaviour
             supportStep = 0;
         }
     }
-    PlayerAction plAct = new PlayerAction();
-
-    bool actionTrigger;
-    PlAttackAction.RollSwordParameter rollSword = new PlAttackAction.RollSwordParameter();
+    public PlayerAction plAct = new PlayerAction();
 
     // Start is called before the first frame update
     void Start()
-    {
+    {       
         plAct.melodyList = new List<int>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        // 入力した番号を保存
+        // 保存した番号に何のスキルが割り振られているか一小節ごとに確認する
         if (Music.IsPlaying && Music.IsJustChangedBar())
-        {           
+        {
             //初期化
             plAct.Refresh();
 
@@ -67,33 +67,25 @@ public class plAttackControl2 : MonoBehaviour
                 }
             }
 
-            //発動の式を書
-
-            //スポーン
-            PlAttackAction.onRollSwordSpawn = false;
-
-            //発動に必要なフラグだけど、いらない気がする
-            PlAttackAction.onRollSword = true;
-
-            //発動する攻撃の種類の式を書く
-            rollSword.swordCount = plAct.attackStep;
-
-
-            .
+            //攻撃
+            if (plAct.attackStep > 0)
+            {
+                Instantiate(plAttacManagerObj, transform);
+                PlAttackAction.rollSwordCount = plAct.attackStep;
+            }
             //すべて消す
             plAct.melodyList.Clear();
 
-            //攻撃命令を出す
-            actionTrigger = true;
-
         }
 
-        //保存
+        //入力した番号を保存
         if (Music.IsPlaying && Music.IsJustChangedBeat())
         {
             plAct.melodyList.Add(HitPos.footPosNum);
 
-            Debug.Log("aaa");
+            //キーボード入力（デバッグ用）
+            Debug.Log(HitPos.footPosNum);
+            HitPos.footPosNum = 8;
         }
     }
 }
