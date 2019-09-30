@@ -22,38 +22,22 @@ public class plAttackControl2 : MonoBehaviour
     PlayerAction plAct = new PlayerAction();
 
     bool actionTrigger;
+    PlAttackAction.RollSwordParameter rollSword = new PlAttackAction.RollSwordParameter();
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        plAct.melodyList = new List<int>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        // 入力した番号を保存
         if (Music.IsPlaying && Music.IsJustChangedBar())
-        {
-            //発動の式を書く
-
-            //スポーン
-            PlAttackAction.onRollSwordSpawn = false;
-
-            //発動に必要なフラグだけど、いらない気がする
-            PlAttackAction.onRollSword = true;
-
-            //発動する攻撃の種類の式を書く
-
-
+        {           
             //初期化
             plAct.Refresh();
-        }
-
-
-        // 入力した番号を保存
-        if (Music.IsPlaying && Music.IsJustChangedBeat())
-        {
-            plAct.melodyList.Add(HitPos.footPosNum);
 
             for (int i = 0; i < plAct.melodyList.Count; i++)
             {
@@ -83,12 +67,33 @@ public class plAttackControl2 : MonoBehaviour
                 }
             }
 
+            //発動の式を書
+
+            //スポーン
+            PlAttackAction.onRollSwordSpawn = false;
+
+            //発動に必要なフラグだけど、いらない気がする
+            PlAttackAction.onRollSword = true;
+
+            //発動する攻撃の種類の式を書く
+            rollSword.swordCount = plAct.attackStep;
+
+
+            .
             //すべて消す
             plAct.melodyList.Clear();
 
             //攻撃命令を出す
             actionTrigger = true;
 
+        }
+
+        //保存
+        if (Music.IsPlaying && Music.IsJustChangedBeat())
+        {
+            plAct.melodyList.Add(HitPos.footPosNum);
+
+            Debug.Log("aaa");
         }
     }
 }
