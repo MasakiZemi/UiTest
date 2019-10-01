@@ -24,6 +24,9 @@ public class FootPosCenter : MonoBehaviour
         public bool isFootDownR;
         public bool isFootDownL;
 
+        public bool isGroundR;
+        public bool isGroundL;
+
         public void refresh()
         {
             isFootUpR = false;
@@ -68,35 +71,39 @@ public class FootPosCenter : MonoBehaviour
         yL = Mathf.Floor(leftFoot.transform.position.y * numUP) / numUP;
 
         //足を上げたとき
-        if(groundPos .y< yR)
+        if (groundPos.y < yR)
         {
             footPos.isFootUpR = true;
+            footPos.isGroundR = false;
         }
-        if(groundPos.y < yL)
+        if (groundPos.y < yL)
         {
             footPos.isFootUpL = true;
+            footPos.isGroundL = false;
         }
 
         //地面と接触したとき
-        if(groundPos.y >= yR)
+        if (groundPos.y >= yR)
         {
             footPos.isFootDownR = true;
+            footPos.isGroundR = true;
         }
-        if(groundPos.y >= yL)
+        if (groundPos.y >= yL)
         {
             footPos.isFootDownL = true;
+            footPos.isGroundL = true;
         }
 
         //方向を向かせる
-        if (footPos.isFootDownR)
+        if (footPos.isFootDownR && !footPos.isFootDownL)
         {
             transform.rotation = Quaternion.LookRotation(Vector3.up, rightFoot.transform.position - transform.position);
         }
-        if (footPos.isFootDownL)
+        if (footPos.isFootDownL && !footPos.isFootDownR)
         {
             transform.rotation = Quaternion.LookRotation(Vector3.up, leftFoot.transform.position - transform.position);
         }
-
+        Debug.Log(hitPosNum);
     }
 
     //足の置いてある方向を決める

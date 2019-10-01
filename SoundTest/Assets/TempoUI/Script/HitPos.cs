@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class HitPos : MonoBehaviour
 {
+    //判定を渡すよう
+    public enum RANK { Bad, Good, Excellent }
+
     float notesLeftPos;
     float notesRightPos;
 
@@ -12,12 +15,9 @@ public class HitPos : MonoBehaviour
     GameObject obj1;
 
     public static int footPosNum { get; set; }
-    public static int rankJudge { get; set; }
+    public static RANK rankJudge { get; set; }
 
     KeyCode NotesKeyName;
-
-    //判定を渡すよう
-    enum RANK { Bad,Good,Excellent}
 
 
     // Start is called before the first frame update
@@ -26,6 +26,8 @@ public class HitPos : MonoBehaviour
         //ボタン
         NotesKeyName = KeyCode.Space;
         footPosNum = 0;
+
+        rankJudge = RANK.Bad;
     }
 
     // Update is called once per frame
@@ -39,7 +41,7 @@ public class HitPos : MonoBehaviour
             notesRightPos = BeatUi.notesRights[0].GetComponent<RectTransform>().localPosition.x;
 
             //ボタン判定
-            footPosNum = FootPosNum();
+            footPosNum = FootPosNumDebug();
 
             //左のノーツの処理
             if (notesLeftPos >= -150f && notesLeftPos < 100f)
@@ -51,18 +53,18 @@ public class HitPos : MonoBehaviour
                     if (notesLeftPos <= 50f && notesLeftPos >= -30f)
                     {
                         Debug.Log("Excellent!!");
-                        rankJudge = (int)RANK.Excellent;
+                        rankJudge = RANK.Excellent;
 
                     }
                     if (notesLeftPos < -30f && notesLeftPos >= -60f)
                     {
                         Debug.Log("Good!!");
-                        rankJudge = (int)RANK.Good;
+                        rankJudge = RANK.Good;
                     }
                     if (notesLeftPos < -60f && notesLeftPos >= -150f)
                     {
                         Debug.Log("Bad!!");
-                        rankJudge = (int)RANK.Bad;
+                        rankJudge = RANK.Bad;
                     }
 
                     BeatUi.notesLefts.RemoveAt(0);
@@ -112,7 +114,7 @@ public class HitPos : MonoBehaviour
 
 
     //デバッグ用ボタン判定
-    int FootPosNum()
+    int FootPosNumDebug()
     {
         int Num = footPosNum;
         if (Input.GetKeyDown(KeyCode.Alpha0)) Num = 0;
@@ -124,5 +126,18 @@ public class HitPos : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha6)) Num = 6;
         if (Input.GetKeyDown(KeyCode.Alpha7)) Num = 7;        
         return Num;
+    }
+
+    //足の角度判定用
+    int FootPosNum()
+    {
+        int num = footPosNum;
+
+        if (""=="")
+        {
+            num = FootPosCenter.hitPosNum;
+        }
+
+        return num;
     }
 }
