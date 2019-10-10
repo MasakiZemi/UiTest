@@ -150,7 +150,7 @@ MonoBehaviour:
     rollSpeed: 25
     speed: 30
     waitTime: 0.5
-    swordCount: 3
+    swordCount: 15
     radius: 50
     swordList: []
     onSword: 0
