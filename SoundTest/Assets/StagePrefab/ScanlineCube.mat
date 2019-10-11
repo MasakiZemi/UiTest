@@ -29,12 +29,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Boolean_802153F7: 0
-    - Vector1_156873A5: 0
+    - Vector1_156873A5: 1
     - Vector1_316C28A: 0.5
     - Vector1_380B4C32: 0
-    - Vector1_51A462C9: 0.5
+    - Vector1_51A462C9: 0.08
     - Vector1_85125335: 5
-    - Vector1_C34C010D: 2
+    - Vector1_C34C010D: 1.5584415
     - Vector1_D2192C8E: 7
     - Vector1_E6229469: 0
     - _Glossiness: 0.507

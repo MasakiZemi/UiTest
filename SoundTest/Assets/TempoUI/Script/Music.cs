@@ -50,7 +50,7 @@ public class Music : MonoBehaviour
 		{
 			return string.Format("\"{0}\" StartBar:{1}, Tempo:{2}", Name, StartBar, Tempo);
 		}
-	}
+    }
 
 	public Section this[int index]
 	{
@@ -87,10 +87,13 @@ public class Music : MonoBehaviour
 	public TextMesh DebugText;
 
 	public bool CreateSectionClips;
-	#endregion
+    #endregion
 
-	#region public static properties
-	public static bool IsPlaying { get { return Current_.IsPlaying_; } }
+    #region public static properties
+    //ƒIƒŠƒWƒiƒ‹
+    public static List<Section> MyInspectorList { get { return Current_.Sections; } }
+
+    public static bool IsPlaying { get { return Current_.IsPlaying_; } }
 	/// <summary>
 	/// last timing.
 	/// </summary>
