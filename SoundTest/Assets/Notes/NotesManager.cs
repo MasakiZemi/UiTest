@@ -37,7 +37,9 @@ public class NotesManager : MonoBehaviour
             else if (Music.IsJustChangedBeat())
             {
                 notesObjList.Add(Instantiate(notesObj, transform));
-                //notesObjList[notesObjList.Count].GetComponent<Renderer>().material.color = Color.red;
+                Vector3 v3 = notesObjList[notesObjList.Count].transform.localScale;
+                v3.y += 3;
+                notesObjList[notesObjList.Count].transform.localScale = v3;
             }
         }
     }
