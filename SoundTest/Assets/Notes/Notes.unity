@@ -145,7 +145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   notesObj: {fileID: 5376715709443363447, guid: 7d8b27ac22b8f434e878db2a8086d137,
     type: 3}
-  notesPointRoll: 0
+  longNotesSiz: 0.5
   speed: 30
 --- !u!4 &245684556
 Transform:

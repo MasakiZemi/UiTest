@@ -7,9 +7,8 @@ using UnityEngine;
 public class NotesManager : MonoBehaviour
 {
     public GameObject notesObj;
-    public float notesPointRoll;
+    public float longNotesSiz=1.5f;
     public float speed;
-    float move;
 
     List<GameObject> notesObjList=new List<GameObject>();
 
@@ -33,13 +32,14 @@ public class NotesManager : MonoBehaviour
             if (Music.IsJustChangedBar())
             {
                 notesObjList.Add(Instantiate(notesObj, transform));
+
+                Vector3 v3 = notesObjList[notesObjList.Count - 1].transform.localScale;
+                v3.y += longNotesSiz;
+                notesObjList[notesObjList.Count - 1].transform.localScale = v3;
             }
             else if (Music.IsJustChangedBeat())
             {
                 notesObjList.Add(Instantiate(notesObj, transform));
-                Vector3 v3 = notesObjList[notesObjList.Count].transform.localScale;
-                v3.y += 3;
-                notesObjList[notesObjList.Count].transform.localScale = v3;
             }
         }
     }
