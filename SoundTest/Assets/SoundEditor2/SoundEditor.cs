@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Linq;
 using System.IO;
 using System;
 
@@ -10,9 +11,10 @@ using System;
 public class SoundEditor : MonoBehaviour
 {
     public Slider slider;   //再生バー用
+    public Text text;
     public int beat = 4;    //1小節に何拍打つか
 
-    public enum ATTACKTYPE { Wave, End }
+    public enum ATTACKTYPE { Wave, Nothing }
 
     [Serializable]
     public class EnemyAttackTime
@@ -21,22 +23,25 @@ public class SoundEditor : MonoBehaviour
         public float musicScore;        //攻撃を出す時間
     }
     public List<EnemyAttackTime> timeList = new List<EnemyAttackTime>();
-   
 
+    List<float> timeCheck = new List<float>();  //時間のチェック用に使う
+   
     AudioSource source;     //サウンド再生環境
     AudioClip clip;         //サウンドデータ
 
     float a;
-    
+    bool onMusic;
+
 
     // Start is called before the first frame update
     void Start()
     {
         source = GetComponent<AudioSource>();
         clip = source.clip;
+        source.Stop();
 
         //再生バーの終了位置セット
-        //slider.maxValue = clip.length;
+        slider.maxValue = clip.length;
 
         //テキストの列分だけ回す
         int count = 0;
@@ -46,11 +51,14 @@ public class SoundEditor : MonoBehaviour
             string[] arr = str.Split(',');                      //（,）カンマで分ける
             timeList[count].musicScore = float.Parse(arr[0]);   //テキストに書かれている時間の格納
 
+            //チェック用
+            timeCheck.Add(float.Parse(arr[0]));
+
             //enumを格納するときに名称として格納されたためそれ用に割り振りなおしている
             switch (arr[1])
             {
                 case "Wave":timeList[count].attackType = ATTACKTYPE.Wave;break;
-                case "End": timeList[count].attackType = ATTACKTYPE.End; break;
+                case "End": timeList[count].attackType = ATTACKTYPE.Nothing; break;
                 default:break;
             }
             count++;
@@ -61,6 +69,8 @@ public class SoundEditor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        SoundControl();
+
         //初めて作成するときのみ
         if (Input.GetKeyDown(KeyCode.C))
         {
@@ -68,6 +78,35 @@ public class SoundEditor : MonoBehaviour
             MusicBeatTime(beat);
         }
 
+        Save();
+        OutputBeatTime();
+    }
+
+    //操作系
+    void SoundControl()
+    {
+        //BGMの再生時間と再生バーをリンク
+        if (onMusic) slider.value = source.time;
+
+        //マウスクリックをするとBGMが止まる
+        if (Input.GetMouseButtonDown(0))
+        {
+            source.Stop();
+            onMusic = false;
+        }
+
+        //スペースキーで再生
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            source.time = slider.value; //再生バーの位置とBGM再生位置をリンク
+            onMusic = true;
+            source.Play();              //BGM再生
+        }
+    }
+
+    //リストのセーブ
+    void Save()
+    {
         //セーブ用
         if (Input.GetKeyDown(KeyCode.S))
         {
@@ -83,6 +122,17 @@ public class SoundEditor : MonoBehaviour
         }
     }
 
+    //時間、リスト番号の表示
+    void OutputBeatTime()
+    {
+        //目的の値に最も近い値を返す
+        var min = timeCheck.Min(c => Math.Abs(c - slider.value));
+        int num = timeCheck.IndexOf(timeCheck.First(c => Math.Abs(c - slider.value) == min));
+        text.text = "リスト時間:" + timeCheck.First(c => Math.Abs(c - slider.value) == min) +
+                    "\n    配列数   :" + num + "\nリアル時間:" + slider.value;
+    }
+
+    //リスト作成
     void MusicBeatTime(int beat)
     {
         //リスト初期化
@@ -99,8 +149,12 @@ public class SoundEditor : MonoBehaviour
         int count = 0;
         while (true)
         {
+            //チェック用
+            timeCheck.Add(barTime * count);
+
             timeList.Add(new EnemyAttackTime());                    //リスト作成
             timeList[count].musicScore = barTime * count;           //1曲に何拍打つかの計算
+            timeList[count].attackType = ATTACKTYPE.Nothing;
             if (timeList[count].musicScore >= clip.length) break;   //1曲の時間分すべて出すことができたらループから抜ける
             //if (count == 10) break;
             count++;
