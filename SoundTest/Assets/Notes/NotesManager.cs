@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//両サイド作ってから判定の処理を書くこと
+//インデックス外になったらNotesMove()のところ
+//ループを両サイドで書けば直るはず
 
 public class NotesManager : MonoBehaviour
 {
@@ -34,7 +35,7 @@ public class NotesManager : MonoBehaviour
         SpawnNotes();
         NotesMove();
         RankJudge();
-        overNotes();
+        OverNotes();
     }
 
     //ノーツ生成処理
@@ -45,9 +46,10 @@ public class NotesManager : MonoBehaviour
             if (Music.IsJustChangedBar())
             {
                 //左右のノーツ生成
-                notesRightList.Add(Spawn(new Vector3(0, 90, 0)));
-                notesLeftList.Add(Spawn(new Vector3(0, -90, 0)));
+                notesRightList.Add(Spawn(90));
+                notesLeftList.Add(Spawn(-90));
 
+                //リストの最後を取得するための計算
                 int maxRight = notesRightList.Count - 1;
                 int maxLeft = notesLeftList.Count - 1;
 
@@ -58,16 +60,25 @@ public class NotesManager : MonoBehaviour
             else if (Music.IsJustChangedBeat())
             {
                 //左右のノーツ生成
-                notesRightList.Add(Spawn(new Vector3(0, 90, 0)));
-                notesLeftList.Add(Spawn(new Vector3(0, -90, 0)));
+                notesRightList.Add(Spawn(90));
+                notesLeftList.Add(Spawn(-90));
             }
         }
 
         //ノーツの生成
-        GameObject Spawn(Vector3 roll)
+        GameObject Spawn(float roll)
         {
-            GameObject obj = Instantiate(notesObj, transform.position, Quaternion.Euler(roll)) as GameObject;
+            //Y軸上にroll分だけ回転させる
+            Quaternion rot = Quaternion.AngleAxis(roll, Vector3.up);
+            //自信の回転取得
+            Quaternion q = transform.rotation;
+
+            //初期設定の回転と自信の回転を掛け合わせたら、うまいこと合成できたぜ！
+            GameObject obj = Instantiate(notesObj, transform.position, q * rot) as GameObject;
+
+            //自信の子オブジェクトとして登録する
             obj.transform.transform.parent = transform;
+
             return obj;
         }
 
@@ -95,28 +106,36 @@ public class NotesManager : MonoBehaviour
         //動かす式
         Quaternion Move(GameObject obj, int direction)
         {
-            Vector3 v3 = obj.transform.rotation.eulerAngles;
-            v3.y += direction * speed * Time.deltaTime;
-            return Quaternion.Euler(v3);
+            //動きの計算
+            float move = direction * speed * Time.deltaTime;
+            //Y軸を基準としてmove分だけ回転する
+            Quaternion rot = Quaternion.AngleAxis(move, Vector3.up);
+            //生成したオブジェクトの回転データ
+            Quaternion q = obj.transform.rotation;
+
+            //掛け合わせることによって、生成オブジェクト独自の動きと
+            //親オブジェクトの回転を合成することができる
+            return q * rot;
         }
     }
 
     //ノーツがオーバーしていればノーツを消す
-    void overNotes()
+    void OverNotes()
     {
-        if (over(notesLeftList))
+        if (Over(notesLeftList))
         {
             DestroyNotes(notesRightList);
             DestroyNotes(notesLeftList);
         }
 
         //ノーツがオーバーしているかどうかの判定
-        bool over(List<GameObject> objList)
+        bool Over(List<GameObject> objList)
         {
             //リストがないときには実行しないようにする
             if (objList.Count != 0)
             {
-                Vector3 roll = objList[0].transform.rotation.eulerAngles;
+                //生成したオブジェクトのローカル回転データ格納
+                Vector3 roll = objList[0].transform.localRotation.eulerAngles;
 
                 //回転したときに360以上になると0になってしまうため消す範囲を制限する必要があった
                 if (roll.y < 10 && roll.y > 3) return true;
@@ -132,25 +151,26 @@ public class NotesManager : MonoBehaviour
         //リストがないときには実行しないようにする
         if (notesLeftList.Count != 0)
         {
-            Vector3 roll = notesLeftList[0].transform.rotation.eulerAngles;
+            //生成したオブジェクトのローカル回転データ格納
+            Vector3 roll = notesLeftList[0].transform.localRotation.eulerAngles;
 
             //トリガーがオンになったら実行
-            if (onTrigger())
+            if (OnTrigger())
             {
                 //ランクの判定
                 if (roll.y > butPos.y && roll.y <= gootPos.y)
                 {
-                    //Debug.Log("Bad!!");
+                    Debug.Log("Bad!!");
                     rank = RANK.Bad;
                 }
                 else if (roll.y > gootPos.y && roll.y <= excellentPos.y)
                 {
-                    //Debug.Log("Good!!");
+                    Debug.Log("Good!!");
                     rank = RANK.Good;
                 }
                 else if (roll.y > excellentPos.y || roll.y <= 2)
                 {
-                    //Debug.Log("Excellent!!");
+                    Debug.Log("Excellent!!");
                     rank = RANK.Excellent;
                 }
 
@@ -165,7 +185,7 @@ public class NotesManager : MonoBehaviour
     }
 
     //トリガーの処理をここに入れる
-    bool onTrigger()
+    bool OnTrigger()
     {
         return Input.GetKeyDown(KeyCode.Space);
     }
