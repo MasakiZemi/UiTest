@@ -14,7 +14,12 @@ public class SoundEditor : MonoBehaviour
     public Text text;
     public int beat = 4;    //1小節に何拍打つか
 
-    public enum ATTACKTYPE { Wave, Nothing }
+    public enum ATTACKTYPE
+    {
+        WaveWide, WaveRight, WaveLeft,
+        ThrowRight, ThrowLeft,
+        Nothing
+    }
 
     [Serializable]
     public class EnemyAttackTime
@@ -57,8 +62,12 @@ public class SoundEditor : MonoBehaviour
             //enumを格納するときに名称として格納されたためそれ用に割り振りなおしている
             switch (arr[1])
             {
-                case "Wave":timeList[count].attackType = ATTACKTYPE.Wave;break;
-                case "End": timeList[count].attackType = ATTACKTYPE.Nothing; break;
+                case "WaveWide": timeList[count].attackType = ATTACKTYPE.WaveWide; break;
+                case "WaveRight": timeList[count].attackType = ATTACKTYPE.WaveRight; break;
+                case "WaveLeft": timeList[count].attackType = ATTACKTYPE.WaveLeft; break;
+                case "ThrowRight": timeList[count].attackType = ATTACKTYPE.ThrowRight; break;
+                case "ThrowLeft": timeList[count].attackType = ATTACKTYPE.ThrowLeft; break;
+                case "Nothing": timeList[count].attackType = ATTACKTYPE.Nothing; break;
                 default:break;
             }
             count++;
