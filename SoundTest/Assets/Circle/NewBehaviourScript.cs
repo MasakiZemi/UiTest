@@ -4,34 +4,105 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
+    float timer;
+    List<Vector3> divideSiz = new List<Vector3>();
+
     public GameObject obj;
     public List<GameObject> objList = new List<GameObject>();
     public int count = 50;
     public float range = 5;
     public float siz = 0.1f;
-    
-    class RangeSiz
+
+    [System.Serializable]
+    class RangeSizParameter
     {
-        public int percentage;
-        public Vector2 siz;     //xが最大値　yが最小値
+        public int divide;
+        public float sizMin;
     }
+    [SerializeField] RangeSizParameter rangeSiz = new RangeSizParameter();
+
+    [System.Serializable]
+    class MoveListParameter
+    {
+        public float interval = 0.1f;
+        public int dir = 1;
+    }
+    [SerializeField] MoveListParameter moveList = new MoveListParameter();
 
     // Start is called before the first frame update
     void Start()
     {
-        objList = new List<GameObject>(InstantCirclePos(count, obj, range));
-
-        for(int i = 0; i < objList.Count; i++)
-        {
-            objList[i].transform.parent = transform;
-            objList[i].transform.localScale = new Vector3(siz, 1, siz);
-        }
+        StartScript();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (rangeSiz.sizMin != 0)
+        {
+            divideSiz = new List<Vector3>(MoveList(divideSiz, moveList.interval, moveList.dir));
+            for (int i = 0; i < objList.Count; i++)
+            {
+                objList[i].transform.localScale = divideSiz[i];
+            }
+        }
+
+        //if (Input.GetKeyDown(KeyCode.Space)) StartScript();
+    }
+
+    void StartScript()
+    {
+        objList = new List<GameObject>(InstantCirclePos(count, obj, range));
+        if (rangeSiz.sizMin != 0) divideSiz = SizChange(count, rangeSiz.divide, new Vector2(siz, rangeSiz.sizMin));
+
+        for (int i = 0; i < objList.Count; i++)
+        { 
+            objList[i].transform.parent = transform;
+            if (rangeSiz.sizMin == 0) objList[i].transform.localScale = new Vector3(siz, 1, siz);
+            else objList[i].transform.localScale = divideSiz[i];
+        }
+    }
+
+    //回転させる(リストの入れ替え)
+    List<Vector3> MoveList(List<Vector3> sizList, float interval, int dir)
+    {
+        timer += Time.deltaTime;
+        if (timer > interval)
+        {
+            if (dir == 1)
+            {
+                Vector3 siz = sizList[sizList.Count - 1];
+                sizList.RemoveAt(sizList.Count - 1);
+                sizList.Insert(0, siz);
+                timer = 0;
+            }
+            else
+            {
+                Vector3 siz = sizList[0];
+                sizList.RemoveAt(0);
+                sizList.Add(siz);
+                timer = 0;
+            }
+        }
+
+        return sizList;
+    }
+
+    //
+    List<Vector3> SizChange(int listSiz, int divide, Vector2 sizMaxMin)
+    {
+        List<Vector3> siz = new List<Vector3>();
+        int percentage = listSiz / divide;
+        for (int i = 0; i < divide; i++)
+        {
+            for (int f = 0; f < percentage; f++)
+            {
+                float oneSiz = (sizMaxMin.x - sizMaxMin.y) / percentage;
+                siz.Add(new Vector3(oneSiz * f, 1, oneSiz * f));
+            }
+        }
+
+        return siz;
     }
 
     //半円上にオブジェクトを生成する
