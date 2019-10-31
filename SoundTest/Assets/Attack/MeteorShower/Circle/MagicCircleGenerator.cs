@@ -2,30 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class MagicCircleGenerator : MonoBehaviour
 {
     float timer;
     List<Vector3> divideSiz = new List<Vector3>();
 
-    public GameObject obj;
-    public List<GameObject> objList = new List<GameObject>();
-    public int count = 50;
-    public float range = 5;
-    public float siz = 0.1f;
+    public GameObject obj;                                         //生成するオブジェクト
+    public List<GameObject> objList = new List<GameObject>();      //生成したオブジェクトリスト
+    public int count = 50;                                         //生成したオブジェクトの生成数
+    public float range = 5;                                        //半径
+    public float siz = 0.1f;                                       //生成したオブジェクトのサイズ
 
     [System.Serializable]
-    class RangeSizParameter
+    class RangeSizParameter     //一定のオブジェクトの大きさをだんだんにする
     {
-        public int divide;
-        public float sizMin;
+        public int divide;      //キーオブジェクトの数
+        public float sizMin;    //だんだんにした時の一番小さいオブジェクトのサイズ
     }
     [SerializeField] RangeSizParameter rangeSiz = new RangeSizParameter();
 
     [System.Serializable]
-    class MoveListParameter
+    class MoveListParameter             //生成したオブジェクトを回転させる(リストの入れ替えをする)
     {
-        public float interval = 0.1f;
-        public int dir = 1;
+        public float interval = 0.1f;   //次回転するまでの時間
+        public int dir = 1;             //回転する方向(1,-1)
     }
     [SerializeField] MoveListParameter moveList = new MoveListParameter();
 
@@ -38,6 +38,7 @@ public class NewBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //回転させる式
         if (rangeSiz.sizMin != 0)
         {
             divideSiz = new List<Vector3>(MoveList(divideSiz, moveList.interval, moveList.dir));
@@ -46,18 +47,20 @@ public class NewBehaviourScript : MonoBehaviour
                 objList[i].transform.localScale = divideSiz[i];
             }
         }
-
-        //if (Input.GetKeyDown(KeyCode.Space)) StartScript();
     }
 
     void StartScript()
     {
+        //半円上にオブジェクトを生成
         objList = new List<GameObject>(InstantCirclePos(count, obj, range));
+        //最小値がゼロでないときオブジェトのサイズをだんだんにする
         if (rangeSiz.sizMin != 0) divideSiz = SizChange(count, rangeSiz.divide, new Vector2(siz, rangeSiz.sizMin));
 
         for (int i = 0; i < objList.Count; i++)
-        { 
+        {
+            //子にする
             objList[i].transform.parent = transform;
+            //最小値がゼロの時に、指定したサイズにする
             if (rangeSiz.sizMin == 0) objList[i].transform.localScale = new Vector3(siz, 1, siz);
             else objList[i].transform.localScale = divideSiz[i];
         }
@@ -88,11 +91,12 @@ public class NewBehaviourScript : MonoBehaviour
         return sizList;
     }
 
-    //
+    //オブジェクトのサイズをだんだんにする
     List<Vector3> SizChange(int listSiz, int divide, Vector2 sizMaxMin)
     {
         List<Vector3> siz = new List<Vector3>();
         int percentage = listSiz / divide;
+        //指定した割合に従ってだんだんを生成
         for (int i = 0; i < divide; i++)
         {
             for (int f = 0; f < percentage; f++)
@@ -114,7 +118,7 @@ public class NewBehaviourScript : MonoBehaviour
             //半円上に生成する
             Vector3 v3 = CirclePos(count, radius, i, Vector3.zero);
             Quaternion q = Quaternion.LookRotation(Vector3.up, transform.position - v3);
-            objList.Add(Instantiate(obj, v3, q*Quaternion.AngleAxis(90, Vector3.right)));
+            objList.Add(Instantiate(obj, v3, q * Quaternion.AngleAxis(90, Vector3.right)));
         }
         return objList;
 

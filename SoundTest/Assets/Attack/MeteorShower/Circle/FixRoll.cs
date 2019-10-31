@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//オブジェクトの方向をターゲットオブジェクトと同じ向きにする
+
 public class FixRoll : MonoBehaviour
 {
-    public GameObject fixObj;
     public GameObject targetObj;
     bool onStart = true;
 
@@ -25,11 +26,7 @@ public class FixRoll : MonoBehaviour
 
     void a()
     {
-        GameObject groupObj = new GameObject("Group");  //子オブジェクト回転用
-        fixObj.transform.parent = gameObject.transform;
-        gameObject.transform.rotation = targetObj.transform.rotation;
-        fixObj.transform.parent = targetObj.transform;
-        Destroy(groupObj);
+        transform.rotation = targetObj.transform.rotation*Quaternion.AngleAxis(180, Vector3.forward);
         onStart = false;
     }
 }
