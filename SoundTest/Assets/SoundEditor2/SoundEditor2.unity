@@ -487,10 +487,9354 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slider: {fileID: 1174092601}
   text: {fileID: 927355536}
-  beat: 4
+  beat: 16
   timeList:
-  - attackType: 0
+  - lane: 000000000000
+    attackType: 0
     musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 1
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 1
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  - lane: 000000000000
+    attackType: 0
+    musicScore: 0
+  onInspector: 1
 --- !u!114 &1000213841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -507,7 +9851,7 @@ MonoBehaviour:
   - Name: 
     UnitPerBeat: 4
     UnitPerBar: 16
-    Tempo: 154
+    Tempo: 120
     StartBar: 0
     StartTimeSamples: 0
     LoopType: 0
@@ -524,7 +9868,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5eaf3c9c31048eb48990f960407d7101, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c0b8319d10eb15f499b79456a0655c82, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.277
   m_Pitch: 1

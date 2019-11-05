@@ -62,16 +62,6 @@ public class SoundEditor : MonoBehaviour
             chara.text = EditorGUILayout.ObjectField("テキスト", chara.text, typeof(Text), true) as Text;
             chara.beat = EditorGUILayout.IntField("1小節に何拍打つか", chara.beat);
 
-            //リストの確保
-            if (!chara.onInspector)
-            {
-                foreach (string str in File.ReadLines("aaa.txt"))
-                {
-                    chara.timeList.Add(new SoundEditor.EnemyAttackTime());                //リスト作成
-                }
-                chara.onInspector = true;
-            }
-
             //リスト番号の操作
             EditorGUILayout.LabelField("\n");
             EditorGUILayout.LabelField("配列の操作");
@@ -108,12 +98,23 @@ public class SoundEditor : MonoBehaviour
         clip = source.clip;
         source.Stop();
 
+        //初期化インスペクター操作を入れると値がすべて保持されるとの初期化の文を書く必要性がある
+        onMusic = false;
+        onMusicStart = false;
+        listCount = 0;
+        timeCheck.Clear();
+
         //再生バーの終了位置セット
         slider.maxValue = clip.length;
+
+        //インスペクターの式を入れると値が確保されっぱなしになるので、初期化の文を書かないと大変なことになる
+        timeList.Clear();
 
         //テキストの列分だけ回す
         foreach (string str in File.ReadLines("aaa.txt"))
         {
+            timeList.Add(new EnemyAttackTime());
+
             string[] arr = str.Split(',');                           //（,）カンマで分ける
             timeList[listCount].musicScore = float.Parse(arr[0]);    //テキストに書かれている時間の格納
 
