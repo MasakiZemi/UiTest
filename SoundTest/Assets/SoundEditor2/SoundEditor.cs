@@ -17,9 +17,9 @@ public class SoundEditor : MonoBehaviour
 
     public enum ATTACKTYPE
     {
-        WaveWide, WaveRight, WaveLeft,
-        ThrowRight, ThrowLeft,
-        Nothing
+        Nothing,
+        WaveWide,
+        Throw
     }
 
     [Serializable]
