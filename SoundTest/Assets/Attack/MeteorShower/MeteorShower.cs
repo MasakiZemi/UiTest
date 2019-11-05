@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Attack : MonoBehaviour
+public class MeteorShower : MonoBehaviour
 {
     float timer;
 
@@ -32,7 +32,7 @@ public class Attack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Attack1();
+        Attack();
     }
 
     void StartAreaSpawnObj()
@@ -64,7 +64,7 @@ public class Attack : MonoBehaviour
         Destroy(groupObj);
     }
 
-    void Attack1()
+    void Attack()
     {
         timer += Time.deltaTime;
 
