@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
@@ -52,11 +52,13 @@ public class SoundEditor : MonoBehaviour
 
         private void OnEnable()
         {
-            chara = target as SoundEditor;  //この宣言をしないと勝手に初期化されてしまう
+            //chara = target as SoundEditor;  //この宣言をしないと勝手に初期化されてしまう
         }
 
         public override void OnInspectorGUI()
         {
+            chara = target as SoundEditor;
+
             //シークバー、テキスト、数値のアタッチ用
             chara.slider = EditorGUILayout.ObjectField("シークバー", chara.slider, typeof(Slider), true) as Slider;
             chara.text = EditorGUILayout.ObjectField("テキスト", chara.text, typeof(Text), true) as Text;
@@ -78,15 +80,19 @@ public class SoundEditor : MonoBehaviour
                 EditorGUILayout.BeginHorizontal();
                 for (int i = 0; i < 6; i++)
                 {
-                    chara.timeList[fix + f].lane[i] = EditorGUILayout.Toggle(chara.timeList[fix + f].lane[i], GUILayout.Width(10));
+                    chara.timeList[fix* countInspector + f].lane[i] = EditorGUILayout.Toggle(chara.timeList[fix* countInspector + f].lane[i], GUILayout.Width(10));
                 }
+                float time = chara.timeList[countInspector + f].musicScore;
+                time = EditorGUILayout.FloatField("時間", time);
+
                 EditorGUILayout.EndHorizontal();
 
                 //Enumの表示
                 EditorGUILayout.LabelField("攻撃の種類");
                 chara.timeList[countInspector + f].attackType =
-                    (SoundEditor.ATTACKTYPE)EditorGUILayout.EnumPopup("", chara.timeList[fix + f].attackType);
+                    (SoundEditor.ATTACKTYPE)EditorGUILayout.EnumPopup("", chara.timeList[countInspector + f].attackType);
             }
+            //target = chara;
         }
     }
     #endregion
