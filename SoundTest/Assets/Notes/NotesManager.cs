@@ -193,8 +193,8 @@ public class NotesManager : MonoBehaviour
     //ノーツを消す処理
     void DestroyNotes(List<GameObject> objList)
     {
-        GameObject obj = objList[0];
+        //GameObject obj = objList[0];
+        Destroy(objList[0]);
         objList.RemoveAt(0);
-        Destroy(obj);
     }
 }
