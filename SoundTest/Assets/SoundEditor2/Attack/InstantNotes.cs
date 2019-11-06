@@ -14,6 +14,7 @@ public class InstantNotes : MonoBehaviour
     }
     public List<EnemyAttackTime> timeList = new List<EnemyAttackTime>();
 
+    public float speed = 10;
     public GameObject[] objPos = new GameObject[6];
     public GameObject obj;
     public GameObject destroyPos;
@@ -68,9 +69,9 @@ public class InstantNotes : MonoBehaviour
             listCount++;
         }
 
-        Destroy();
+        Move();
     }
-    void Destroy()
+    void Move()
     {
         for(int i = 0; i < notesList.Count; i++)
         {
@@ -79,6 +80,12 @@ public class InstantNotes : MonoBehaviour
                 Destroy(notesList[i]);
                 notesList.RemoveAt(i);
                 if (notesList.Count < i) break;
+            }
+            else
+            {
+                Vector3 pos = notesList[i].transform.position;
+                pos.z += speed * Time.deltaTime;
+                notesList[i].transform.position = pos;
             }
         }
     }
