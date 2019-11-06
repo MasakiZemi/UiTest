@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
@@ -80,17 +80,17 @@ public class SoundEditor : MonoBehaviour
                 EditorGUILayout.BeginHorizontal();
                 for (int i = 0; i < 6; i++)
                 {
-                    chara.timeList[fix* countInspector + f].lane[i] = EditorGUILayout.Toggle(chara.timeList[fix* countInspector + f].lane[i], GUILayout.Width(10));
+                    chara.timeList[fix * chara.beat + f].lane[i] = EditorGUILayout.Toggle(chara.timeList[fix * chara.beat + f].lane[i], GUILayout.Width(10));
                 }
-                float time = chara.timeList[countInspector + f].musicScore;
+                float time = chara.timeList[fix * chara.beat + f].musicScore;
                 time = EditorGUILayout.FloatField("時間", time);
 
                 EditorGUILayout.EndHorizontal();
 
                 //Enumの表示
                 EditorGUILayout.LabelField("攻撃の種類");
-                chara.timeList[countInspector + f].attackType =
-                    (SoundEditor.ATTACKTYPE)EditorGUILayout.EnumPopup("", chara.timeList[countInspector + f].attackType);
+                chara.timeList[fix * chara.beat + f].attackType =
+                    (SoundEditor.ATTACKTYPE)EditorGUILayout.EnumPopup("", chara.timeList[fix * chara.beat + f].attackType);
             }
             //target = chara;
         }

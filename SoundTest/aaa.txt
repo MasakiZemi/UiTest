@@ -1,7 +1,7 @@
 0,0,False,False,False,False,False,False
 0.125,0,False,False,False,False,False,False
 0.25,0,False,False,False,False,False,False
-0.375,0,False,False,False,False,False,False
+0.375,1,False,False,False,True,True,False
 0.5,0,False,False,False,False,False,False
 0.625,0,False,False,False,False,False,False
 0.75,0,False,False,False,False,False,False
@@ -48,10 +48,10 @@
 5.875,0,False,False,False,False,False,False
 6,0,False,False,False,False,False,False
 6.125,0,False,False,False,False,False,False
-6.25,0,False,False,False,False,False,False
-6.375,0,False,False,False,False,False,False
-6.5,0,False,False,False,False,False,False
-6.625,0,False,False,False,False,False,False
+6.25,1,False,False,False,False,False,True
+6.375,1,False,False,False,False,True,False
+6.5,1,False,False,False,True,False,False
+6.625,2,False,True,False,False,False,False
 6.75,0,False,False,False,False,False,False
 6.875,0,False,False,False,False,False,False
 7,0,False,False,False,False,False,False
@@ -147,9 +147,9 @@
 18.25,0,False,False,False,False,False,False
 18.375,0,False,False,False,False,False,False
 18.5,0,False,False,False,False,False,False
-18.625,0,False,False,False,False,False,False
-18.75,0,False,False,False,False,False,False
-18.875,0,False,False,False,False,False,False
+18.625,1,False,False,False,False,True,True
+18.75,1,True,True,False,False,False,False
+18.875,1,False,False,True,True,False,False
 19,0,False,False,False,False,False,False
 19.125,0,False,False,False,False,False,False
 19.25,0,False,False,False,False,False,False
