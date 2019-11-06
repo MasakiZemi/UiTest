@@ -150,7 +150,7 @@ public class SoundEditor : MonoBehaviour
 
         if (Music.IsPlaying && Music.IsJustChangedBar() && !onMusicStart)
         {
-            barTiming = source.time;
+            barTiming = 0;//source.time;
             onMusicStart = true;
             Debug.Log(barTiming);
         }
