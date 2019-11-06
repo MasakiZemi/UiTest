@@ -84,7 +84,7 @@ public class InstantNotes : MonoBehaviour
             else
             {
                 Vector3 pos = notesList[i].transform.position;
-                pos.z += speed * Time.deltaTime;
+                pos.z -= speed * Time.deltaTime;
                 notesList[i].transform.position = pos;
             }
         }
