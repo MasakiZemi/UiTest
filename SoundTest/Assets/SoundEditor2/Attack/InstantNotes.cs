@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using UnityEngine.UI;
+using System.Linq;
+using System;
 
 public class InstantNotes : MonoBehaviour
 {
@@ -26,6 +28,8 @@ public class InstantNotes : MonoBehaviour
     float timer;                                            //経過時間
     List<GameObject> notesList = new List<GameObject>();    //ノーツオブジェクトの管理用
     float fixTime;                                          //修正する時間
+    bool onMusicStart;                                      //再生フラグ
+    List<float> timeCheck = new List<float>();              //リセット時に使う(リストに格納されている中んで一番近い時間を出す)
 
     // Start is called before the first frame update
     void Start()
@@ -39,30 +43,41 @@ public class InstantNotes : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //シークバーの位置と連動させる
-        timer = slider.value;//Time.deltaTime;
-
-        //生成
-        if (timer > timeList[listCount].musicScore - fixTime)
+        if (onMusicStart)
         {
-            for (int i = 0; i < timeList[listCount].lane.Length; i++)
-            {
-                if (timeList[listCount].lane[i])
-                {
-                    notesList.Add(Instantiate(obj, objPos[i].transform));
+            //シークバーの位置と連動させる
+            timer = slider.value;//Time.deltaTime;
 
-                    //スローの時は色を変える
-                    if (timeList[listCount].attackType == SoundEditor.ATTACKTYPE.Throw)
+            //生成
+            if (timer > timeList[listCount].musicScore - fixTime)
+            {
+                for (int i = 0; i < timeList[listCount].lane.Length; i++)
+                {
+                    if (timeList[listCount].lane[i])
                     {
-                        notesList[notesList.Count - 1].GetComponent<Renderer>().material = throwMaterial;
+                        notesList.Add(Instantiate(obj, objPos[i].transform));
+
+                        //スローの時は色を変える
+                        if (timeList[listCount].attackType == SoundEditor.ATTACKTYPE.Throw)
+                        {
+                            notesList[notesList.Count - 1].GetComponent<Renderer>().material = throwMaterial;
+                        }
                     }
                 }
+                listCount++;
             }
-            listCount++;
         }
 
         //初期化
-        if (Input.GetKeyDown(KeyCode.Space)) OnStart();
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            OnStart();
+            ResetList();
+        }
+        if (Input.GetMouseButtonDown(0))
+        {
+            onMusicStart = false;
+        }
 
         Move();
     }
@@ -87,10 +102,23 @@ public class InstantNotes : MonoBehaviour
         }
     }
 
+    //再生時間と一番近い時間までのリストを消す
+    void ResetList()
+    {
+        var min = timeCheck.Min(c => Math.Abs(c - slider.value));
+        int num = timeCheck.IndexOf(timeCheck.First(c => Math.Abs(c - slider.value) == min));
+        for (int i = 0; i < num; i++) timeList.RemoveAt(0);
+    }
+
+    //テキスト読み込み
     void OnStart()
     {
+        //初期化
         timeList.Clear();
+        timeCheck.Clear();
         listCount = 0;
+        timer = 0;
+        onMusicStart = true;
 
         //テキストの読み込み
         foreach (string str in File.ReadLines("aaa.txt"))
@@ -99,6 +127,7 @@ public class InstantNotes : MonoBehaviour
 
             string[] arr = str.Split(',');                           //（,）カンマで分ける
             timeList[listCount].musicScore = float.Parse(arr[0]);    //テキストに書かれている時間の格納
+            timeCheck.Add(float.Parse(arr[0]));                      //リセット用
 
             //攻撃の種類を登録
             timeList[listCount].attackType = (SoundEditor.ATTACKTYPE)int.Parse(arr[1]);
