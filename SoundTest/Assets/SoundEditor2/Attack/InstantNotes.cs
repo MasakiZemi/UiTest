@@ -16,9 +16,19 @@ public class InstantNotes : MonoBehaviour
     }
     public List<EnemyAttackTime> timeList = new List<EnemyAttackTime>();
 
+    public class PlStepTiming
+    {
+        public SoundEditor.PL_STEP_TIMING stepTiming;
+    }
+    public List<PlStepTiming> player = new List<PlStepTiming>();
+
+    public string scoreName = "aaa";
+    string fileName;
+
     public float speed = 10;                        //ノーツ速度
     public GameObject[] objPos = new GameObject[6]; //ノーツ生成場所
     public GameObject obj;                          //生成元のオブジェクト
+    public GameObject plObj;                        //プレイヤーのステップ
     public GameObject destroyPos;                   //壊すポジション
     //public GameObject linePos;
     public Slider slider;
@@ -27,6 +37,7 @@ public class InstantNotes : MonoBehaviour
     int listCount;                                          //リストの中身を回すよう
     float timer;                                            //経過時間
     List<GameObject> notesList = new List<GameObject>();    //ノーツオブジェクトの管理用
+    List<GameObject> plNotesList = new List<GameObject>();  //プレイヤーのノーツオブジェクト管理用
     float fixTime;                                          //修正する時間
     bool onMusicStart;                                      //再生フラグ
     List<float> timeCheck = new List<float>();              //リセット時に使う(リストに格納されている中んで一番近い時間を出す)
@@ -36,6 +47,8 @@ public class InstantNotes : MonoBehaviour
     {
         //ラインに触れるタイミングが登録された時間になるようにするための計算
         fixTime = objPos[0].transform.position.z / speed;
+
+        fileName = "Assets/SoundEditor2/Score/" + scoreName + ".txt";
 
         OnStart();
     }
@@ -64,6 +77,13 @@ public class InstantNotes : MonoBehaviour
                         }
                     }
                 }
+
+                //プレイヤーのノーツ
+                if (player[listCount].stepTiming != SoundEditor.PL_STEP_TIMING.Nothing)
+                {
+                    plNotesList.Add(Instantiate(plObj, Vector3.forward * objPos[0].transform.position.z, new Quaternion()));
+                }
+
                 listCount++;
             }
         }
@@ -79,27 +99,32 @@ public class InstantNotes : MonoBehaviour
             onMusicStart = false;
         }
 
-        Move();
+        notesList = new List<GameObject>(Move(notesList));
+        plNotesList = new List<GameObject>(Move(plNotesList));
     }
-    void Move()
+
+    //動き
+    List<GameObject> Move(List<GameObject> objList)
     {
-        for(int i = 0; i < notesList.Count; i++)
+        for (int i = 0; i < objList.Count; i++)
         {
-            if (notesList[i].transform.position.z < destroyPos.transform.position.z)
+            if (objList[i].transform.position.z < destroyPos.transform.position.z)
             {
                 //削除
-                Destroy(notesList[i]);
-                notesList.RemoveAt(i);
-                if (notesList.Count > i) break;
+                Destroy(objList[i]);
+                objList.RemoveAt(i);
+                if (objList.Count > i) break;
             }
             else
             {
                 //動き
-                Vector3 pos = notesList[i].transform.position;
+                Vector3 pos = objList[i].transform.position;
                 pos.z -= speed * Time.deltaTime;
-                notesList[i].transform.position = pos;
+                objList[i].transform.position = pos;
             }
         }
+
+        return objList;
     }
 
     //再生時間と一番近い時間までのリストを消す
@@ -115,15 +140,17 @@ public class InstantNotes : MonoBehaviour
     {
         //初期化
         timeList.Clear();
+        player.Clear();
         timeCheck.Clear();
         listCount = 0;
         timer = 0;
         onMusicStart = true;
 
         //テキストの読み込み
-        foreach (string str in File.ReadLines("aaa.txt"))
+        foreach (string str in File.ReadLines(fileName))
         {
             timeList.Add(new EnemyAttackTime());
+            player.Add(new PlStepTiming());
 
             string[] arr = str.Split(',');                           //（,）カンマで分ける
             timeList[listCount].musicScore = float.Parse(arr[0]);    //テキストに書かれている時間の格納
@@ -140,6 +167,9 @@ public class InstantNotes : MonoBehaviour
                     timeList[listCount].lane[i] = bool.Parse(arr[2 + i]);
                 }
             }
+
+            //プレイヤーステップの登録
+            player[listCount].stepTiming = (SoundEditor.PL_STEP_TIMING)int.Parse(arr[8]);
 
             listCount++;
         }

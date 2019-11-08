@@ -14,12 +14,20 @@ public class SoundEditor : MonoBehaviour
     public Slider slider;   //再生バー用
     public Text text;
     public int beat = 4;    //1小節に何拍打つか
+    string scoreName;
+    string fileName;
 
     public enum ATTACKTYPE
     {
         Nothing,
         WaveWide,
         Throw
+    }
+
+    public enum PL_STEP_TIMING
+    {
+        Nothing,
+        Step,
     }
 
     [Serializable]
@@ -30,6 +38,13 @@ public class SoundEditor : MonoBehaviour
         public float musicScore;        //攻撃を出す時間
     }
     public List<EnemyAttackTime> timeList = new List<EnemyAttackTime>();
+
+    public class PlStepTiming
+    {
+        public PL_STEP_TIMING stepTiming;
+    }
+    public List<PlStepTiming> player = new List<PlStepTiming>();
+
 
     List<float> timeCheck = new List<float>();  //時間のチェック用に使う
 
@@ -60,37 +75,52 @@ public class SoundEditor : MonoBehaviour
             chara = target as SoundEditor;
 
             //シークバー、テキスト、数値のアタッチ用
-            chara.slider = EditorGUILayout.ObjectField("シークバー", chara.slider, typeof(Slider), true) as Slider;
-            chara.text = EditorGUILayout.ObjectField("テキスト", chara.text, typeof(Text), true) as Text;
-            chara.beat = EditorGUILayout.IntField("1小節に何拍打つか", chara.beat);
+            chara.slider = EditorGUILayout.ObjectField("シークバー", chara.slider, typeof(Slider), true, GUILayout.Width(300)) as Slider;
+            chara.text = EditorGUILayout.ObjectField("テキスト", chara.text, typeof(Text), true, GUILayout.Width(300)) as Text;
+            chara.beat = EditorGUILayout.IntField("1小節に何拍打つか", chara.beat, GUILayout.Width(300));
 
             //リスト番号の操作
             EditorGUILayout.LabelField("\n");
             EditorGUILayout.LabelField("配列の操作");
-            countInspector = EditorGUILayout.IntSlider(countInspector, 0, chara.timeList.Count - (1 + chara.beat));
+            countInspector = EditorGUILayout.IntSlider(countInspector, 0, chara.timeList.Count - (1 + chara.beat), GUILayout.Width(300));
             int fix = countInspector / chara.beat;   //1小節ごとにインスペクター上に表示
 
             //想定したビート分だけ表示する
             //リスト番号を切り替えることで、表示されているもが変わる
-            for (int f = 0; f < chara.beat; f++)
+            if (File.Exists(chara.fileName))
             {
-                //横並びにチェックボックスを表示(bool)
-                EditorGUILayout.LabelField("\n");
-                EditorGUILayout.LabelField("レーン");
-                EditorGUILayout.BeginHorizontal();
-                for (int i = 0; i < 6; i++)
+                for (int f = 0; f < chara.beat; f++)
                 {
-                    chara.timeList[fix * chara.beat + f].lane[i] = EditorGUILayout.Toggle(chara.timeList[fix * chara.beat + f].lane[i], GUILayout.Width(10));
+                    //横並びにチェックボックスを表示(bool)
+                    EditorGUILayout.LabelField("\n");
+
+                    EditorGUILayout.BeginHorizontal();
+
+                    EditorGUILayout.LabelField("レーン:", GUILayout.Width(80));
+                    for (int i = 0; i < 6; i++)
+                    {
+                        chara.timeList[fix * chara.beat + f].lane[i] = EditorGUILayout.Toggle(chara.timeList[fix * chara.beat + f].lane[i], GUILayout.Width(13));
+                    }
+                    float time = chara.timeList[fix * chara.beat + f].musicScore;
+                    EditorGUILayout.LabelField("", GUILayout.Width(20));
+                    EditorGUILayout.LabelField("時間:  "+ time);
+
+                    EditorGUILayout.EndHorizontal();
+
+                    EditorGUILayout.BeginHorizontal();
+                    //Enumの表示
+                    EditorGUILayout.LabelField("攻撃の種類:", GUILayout.Width(80));
+                    chara.timeList[fix * chara.beat + f].attackType =
+                        (SoundEditor.ATTACKTYPE)EditorGUILayout.EnumPopup("", chara.timeList[fix * chara.beat + f].attackType, GUILayout.Width(100));
+                    EditorGUILayout.EndHorizontal();
+
+                    EditorGUILayout.BeginHorizontal();
+                    //プレイヤー
+                    EditorGUILayout.LabelField("PLステップ:", GUILayout.Width(80));
+                    chara.player[fix * chara.beat + f].stepTiming =
+                        (SoundEditor.PL_STEP_TIMING)EditorGUILayout.EnumPopup("", chara.player[fix * chara.beat + f].stepTiming, GUILayout.Width(100));
+                    EditorGUILayout.EndHorizontal();
                 }
-                float time = chara.timeList[fix * chara.beat + f].musicScore;
-                time = EditorGUILayout.FloatField("時間", time);
-
-                EditorGUILayout.EndHorizontal();
-
-                //Enumの表示
-                EditorGUILayout.LabelField("攻撃の種類");
-                chara.timeList[fix * chara.beat + f].attackType =
-                    (SoundEditor.ATTACKTYPE)EditorGUILayout.EnumPopup("", chara.timeList[fix * chara.beat + f].attackType);
             }
             //target = chara;
         }
@@ -104,6 +134,10 @@ public class SoundEditor : MonoBehaviour
         clip = source.clip;
         source.Stop();
 
+        //参照するパス
+        scoreName = "aaa";
+        fileName = "Assets/SoundEditor2/Score/" + scoreName + ".txt";
+
         //初期化インスペクター操作を入れると値がすべて保持されるとの初期化の文を書く必要性がある
         onMusic = false;
         onMusicStart = false;
@@ -115,31 +149,39 @@ public class SoundEditor : MonoBehaviour
 
         //インスペクターの式を入れると値が確保されっぱなしになるので、初期化の文を書かないと大変なことになる
         timeList.Clear();
+        player.Clear();
 
         //テキストの列分だけ回す
-        foreach (string str in File.ReadLines("aaa.txt"))
+        if (File.Exists(fileName))
         {
-            timeList.Add(new EnemyAttackTime());
-
-            string[] arr = str.Split(',');                           //（,）カンマで分ける
-            timeList[listCount].musicScore = float.Parse(arr[0]);    //テキストに書かれている時間の格納
-
-            //チェック用
-            timeCheck.Add(float.Parse(arr[0]));
-
-            //攻撃の種類を登録
-            timeList[listCount].attackType = (ATTACKTYPE)int.Parse(arr[1]);
-
-            //攻撃が放たれるレーン
-            if (arr.Length > 2)
+            foreach (string str in File.ReadLines(fileName))
             {
-                for (int i = 0; i < timeList[listCount].lane.Length; i++)
-                {
-                    timeList[listCount].lane[i] = bool.Parse(arr[2 + i]);
-                }
-            }
+                timeList.Add(new EnemyAttackTime());
+                player.Add(new PlStepTiming());
 
-            listCount++;
+                string[] arr = str.Split(',');                           //（,）カンマで分ける
+                timeList[listCount].musicScore = float.Parse(arr[0]);    //テキストに書かれている時間の格納
+
+                //チェック用
+                timeCheck.Add(float.Parse(arr[0]));
+
+                //攻撃の種類を登録
+                timeList[listCount].attackType = (ATTACKTYPE)int.Parse(arr[1]);
+
+                //攻撃が放たれるレーン
+                if (arr.Length > 2)
+                {
+                    for (int i = 0; i < timeList[listCount].lane.Length; i++)
+                    {
+                        timeList[listCount].lane[i] = bool.Parse(arr[2 + i]);
+                    }
+                }
+
+                //プレイヤーステップの登録
+                player[listCount].stepTiming = (PL_STEP_TIMING)int.Parse(arr[8]);
+
+                listCount++;
+            }
         }
     }
 
@@ -201,11 +243,14 @@ public class SoundEditor : MonoBehaviour
             {
                 strList.Add(timeList[i].musicScore + "," + (int)timeList[i].attackType +
                     "," + timeList[i].lane[0] + "," + timeList[i].lane[1] + "," + timeList[i].lane[2] +
-                    "," + timeList[i].lane[3] + "," + timeList[i].lane[4] + "," + timeList[i].lane[5]);
+                    "," + timeList[i].lane[3] + "," + timeList[i].lane[4] + "," + timeList[i].lane[5] +
+                    "," + (int)player[i].stepTiming);
             }
 
+            Debug.Log(fileName);
+
             //テキストに書き出し
-            File.WriteAllLines("aaa.txt", strList);
+            File.WriteAllLines(fileName, strList);
         }
     }
 
@@ -224,6 +269,7 @@ public class SoundEditor : MonoBehaviour
     {
         //リスト初期化
         timeList.Clear();
+        player.Clear();
 
         //一小節の時間の計算
         //60*拍子*小節数/テンポ
@@ -239,9 +285,11 @@ public class SoundEditor : MonoBehaviour
             //チェック用
             timeCheck.Add(barTime * count);
 
+            player.Add(new PlStepTiming());
             timeList.Add(new EnemyAttackTime());                    //リスト作成
             timeList[count].musicScore = barTime * count;           //1曲に何拍打つかの計算
             timeList[count].attackType = ATTACKTYPE.Nothing;
+            player[count].stepTiming = PL_STEP_TIMING.Nothing;      //プレイヤー
             if (timeList[count].musicScore >= clip.length) break;   //1曲の時間分すべて出すことができたらループから抜ける
             //if (count == 10) break;
             count++;

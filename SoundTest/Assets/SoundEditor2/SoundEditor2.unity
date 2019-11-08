@@ -11438,6 +11438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c28d6f0854574f14ba61c33dbd37570d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreName: aaa
   speed: 40
   objPos:
   - {fileID: 1075361598}
@@ -11447,6 +11448,7 @@ MonoBehaviour:
   - {fileID: 264960615}
   - {fileID: 88559648}
   obj: {fileID: 7536963366644961622, guid: dff26e1ea5014e44daa4cb9e5453a15f, type: 3}
+  plObj: {fileID: 7867787766290388452, guid: 41c9b824e1a35b6469452b51d1de008e, type: 3}
   destroyPos: {fileID: 1168423400}
   slider: {fileID: 1174092601}
   throwMaterial: {fileID: 2100000, guid: df57ce221d46fa540b51ec29a64e127e, type: 2}
