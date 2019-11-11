@@ -423,6 +423,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1371447303556410221}
   - component: {fileID: 1371447303556410218}
+  - component: {fileID: 5710656369726647879}
   m_Layer: 0
   m_Name: NotesManager
   m_TagString: Untagged
@@ -452,7 +453,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1371447303556410219}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 651a51228cab3d546a5d462573ff7680, type: 3}
   m_Name: 
@@ -461,6 +462,26 @@ MonoBehaviour:
     type: 3}
   longNotesSiz: 1.5
   speed: 30
+  butObj: {fileID: 1371447301852206363}
+  goodObj: {fileID: 1371447303091403651}
+  excellentObj: {fileID: 1371447303224137047}
+--- !u!114 &5710656369726647879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371447303556410219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64c37a319a0a1a046aa488bd25014649, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notesObj: {fileID: 5376715709443363447, guid: 7d8b27ac22b8f434e878db2a8086d137,
+    type: 3}
+  longNotesSiz: 1.5
+  speed: 30
+  angle: 45
   butObj: {fileID: 1371447301852206363}
   goodObj: {fileID: 1371447303091403651}
   excellentObj: {fileID: 1371447303224137047}
