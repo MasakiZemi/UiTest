@@ -6,7 +6,7 @@ using System.IO;
 public class StepData : MonoBehaviour
 {
     public string scoreName = "aaa";
-    string fileName = "Assets/SoundEditor2/Score/";
+    public string fileName = "Assets/SoundEditor2/Score/";
 
     public AudioSource source;     //サウンド
 
@@ -22,15 +22,16 @@ public class StepData : MonoBehaviour
         public PL_STEP_TIMING plStep;
         public float musicScore;
     }
-    public List<Data> stepData = new List<Data>();
+    static List<Data> StepData_ = new List<Data>();
+    static AudioSource Source_ = new AudioSource();
 
-    static StepData StepData_ = new StepData();
+    //static StepData StepData_ = new StepData();
 
     // Start is called before the first frame update
     void Start()
     {
         int count = 0;
-        stepData.Clear();
+        StepData_.Clear();
         fileName += scoreName + ".txt";
 
         //Debug.Log(File.Exists(fileName));
@@ -39,25 +40,22 @@ public class StepData : MonoBehaviour
         foreach (string str in File.ReadLines(fileName))
         {
             string[] arr = str.Split(',');                           //（,）カンマで分ける
-            stepData.Add(new Data());
+            StepData_.Add(new Data());
 
-            stepData[count].musicScore = float.Parse(arr[(int)INPUT_TEXT.MusicScore]);
-            stepData[count].plStep = (PL_STEP_TIMING)int.Parse(arr[(int)INPUT_TEXT.PlStep]);
+            StepData_[count].musicScore = float.Parse(arr[(int)INPUT_TEXT.MusicScore]);
+            StepData_[count].plStep = (PL_STEP_TIMING)int.Parse(arr[(int)INPUT_TEXT.PlStep]);
 
             count++;
         }
 
-        //StepData_.stepData = GetComponent<StepData>();
-        StepData_.stepData = new List<Data>(stepData);
-        StepData_.source = source;
+        Source_ = source;   //オーディオデータの代入
     }
 
     // Update is called once per frame
     void Update()
     {
-        //StepData_.source = source;
     }
 
-    public static List<Data> GetStepData { get { return StepData_.stepData; } }
-    public static float GetSoundPlayTime { get { return StepData_.source.time; } }
+    public static List<Data> GetStepData { get { return StepData_; } }
+    public static float GetSoundPlayTime { get { return Source_.time; } }
 }

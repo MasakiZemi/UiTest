@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 245410348}
   - component: {fileID: 245410347}
   - component: {fileID: 245410346}
+  - component: {fileID: 245410349}
   m_Layer: 0
   m_Name: Music
   m_TagString: Untagged
@@ -263,25 +264,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &723660994 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1371447303556410219, guid: 0037230cd74cdca4d8bcacdf508ce8de,
-    type: 3}
-  m_PrefabInstance: {fileID: 1371447303377875489}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &723660997
+--- !u!114 &245410349
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 723660994}
+  m_GameObject: {fileID: 245410345}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb16d1ecb3f3937498b02e750c1e6ea8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scoreName: aaa
+  fileName: Assets/SoundEditor2/Score/
   source: {fileID: 245410347}
 --- !u!1 &1137205427
 GameObject:
