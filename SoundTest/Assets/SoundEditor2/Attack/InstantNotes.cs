@@ -138,7 +138,7 @@ public class InstantNotes : MonoBehaviour
         {
             timeList.RemoveAt(0);
             player.RemoveAt(0);
-            listCount++;
+            //listCount++;
         }
     }
 
