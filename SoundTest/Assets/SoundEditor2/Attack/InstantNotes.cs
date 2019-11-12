@@ -132,7 +132,11 @@ public class InstantNotes : MonoBehaviour
     {
         var min = timeCheck.Min(c => Math.Abs(c - slider.value));
         int num = timeCheck.IndexOf(timeCheck.First(c => Math.Abs(c - slider.value) == min));
-        for (int i = 0; i < num; i++) timeList.RemoveAt(0);
+        for (int i = 0; i < num; i++)
+        {
+            timeList.RemoveAt(0);
+            player.RemoveAt(0);
+        }
     }
 
     //テキスト読み込み

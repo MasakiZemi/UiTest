@@ -42,6 +42,8 @@ public class StepData : MonoBehaviour
             stepData[count].musicScore = float.Parse(arr[(int)INPUT_TEXT.MusicScore]);
             stepData[count].plStep = (PL_STEP_TIMING)int.Parse(arr[(int)INPUT_TEXT.PlStep]);
 
+            //Debug.Log(stepData[count].plStep)
+
             count++;
         }
 
