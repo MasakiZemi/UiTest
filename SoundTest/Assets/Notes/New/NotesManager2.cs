@@ -50,7 +50,7 @@ public class NotesManager2 : MonoBehaviour
         //テキストに登録されている時間が来たらノーツを生成する
         if (StepData.GetSoundPlayTime > StepData.GetStepData[stepDataCount].musicScore - fixTime)
         {
-            Debug.Log(StepData.GetStepData[stepDataCount].plStep);
+            //Debug.Log(StepData.GetStepData[stepDataCount].plStep);
             if (StepData.GetStepData[stepDataCount].plStep != StepData.PL_STEP_TIMING.Nothing)
             {
                 notesRightList.Add(Spawn(angle));

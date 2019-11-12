@@ -51,6 +51,8 @@ public class InstantNotes : MonoBehaviour
         fileName = "Assets/SoundEditor2/Score/" + scoreName + ".txt";
 
         OnStart();
+
+        onMusicStart = false;
     }
 
     // Update is called once per frame
@@ -83,7 +85,7 @@ public class InstantNotes : MonoBehaviour
                 {
                     plNotesList.Add(Instantiate(plObj, Vector3.forward * objPos[0].transform.position.z, new Quaternion()));
                 }
-
+                Debug.Log("ステップ" + player[listCount].stepTiming + "カウント" + listCount);
                 listCount++;
             }
         }
@@ -136,6 +138,7 @@ public class InstantNotes : MonoBehaviour
         {
             timeList.RemoveAt(0);
             player.RemoveAt(0);
+            listCount++;
         }
     }
 
@@ -148,6 +151,7 @@ public class InstantNotes : MonoBehaviour
         timeCheck.Clear();
         listCount = 0;
         timer = 0;
+
         onMusicStart = true;
 
         //テキストの読み込み
