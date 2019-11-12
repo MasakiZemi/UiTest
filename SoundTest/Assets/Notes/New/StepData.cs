@@ -33,6 +33,8 @@ public class StepData : MonoBehaviour
         stepData.Clear();
         fileName += scoreName + ".txt";
 
+        //Debug.Log(File.Exists(fileName));
+
         //テキストの読み込み
         foreach (string str in File.ReadLines(fileName))
         {
@@ -42,11 +44,10 @@ public class StepData : MonoBehaviour
             stepData[count].musicScore = float.Parse(arr[(int)INPUT_TEXT.MusicScore]);
             stepData[count].plStep = (PL_STEP_TIMING)int.Parse(arr[(int)INPUT_TEXT.PlStep]);
 
-            Debug.Log(stepData[count].plStep);
-
             count++;
         }
 
+        //StepData_.stepData = GetComponent<StepData>();
         StepData_.stepData = new List<Data>(stepData);
         StepData_.source = source;
     }
@@ -58,5 +59,5 @@ public class StepData : MonoBehaviour
     }
 
     public static List<Data> GetStepData { get { return StepData_.stepData; } }
-    public static float GetSoundPlayTime { get { return StepData_.source.time;} }
+    public static float GetSoundPlayTime { get { return StepData_.source.time; } }
 }
