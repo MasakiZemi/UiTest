@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PlDamage1
-  m_Shader: {fileID: 4800000, guid: 47346634ee664f24b99e5074ec5b29ff, type: 3}
+  m_Name: test
+  m_Shader: {fileID: 4800000, guid: d547fe418a6b44d4eb97cb0597ce0ab2, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -44,19 +44,35 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_8670A1B7: 30
-    - Vector1_EED51B8A: 0.01
+    - Vector1_24C4AB91: 5
+    - Vector1_2A002491: 6.86
+    - Vector1_5040E27B: 5.51
+    - Vector1_5EE16025: -0.8
+    - Vector1_66DC4FC4: 10.3
+    - Vector1_80818616: 6.58
+    - Vector1_8764C297: 0.28
+    - Vector1_D442F765: -4.13
+    - Vector1_E0D2F8C3: 10.056081
+    - Vector1_E3D633BF: 2.13
+    - Vector1_F8FE891: 2.54
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
     - _Cull: 2
     - _Cutoff: 0.5
     - _DstBlend: 0
-    - _Gauge: 0.5045422
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Metallic: 0
+    - _NotesPos0: 36.65
+    - _NotesPos1: 3.42
+    - _NotesPos2: 4.94
+    - _NotesPos3: 8.43
+    - _NotesPos4: 1
+    - _NotesPos5: -0.97
+    - _NotesPos6: 1
+    - _NotesPos7: 1
     - _OcclusionStrength: 1
     - _ReceiveShadows: 1
     - _SmoothnessTextureChannel: 0
@@ -66,8 +82,12 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_4B6DA70F: {r: 0, g: 0.9210153, b: 1, a: 0}
-    - Color_E0E6603D: {r: 0, g: 0, b: 0, a: 0}
+    - Color_47FF9F05: {r: 0.0627451, g: 0.3490196, b: 0.3098039, a: 0}
+    - Color_870E489C: {r: 0, g: 1, b: 0.97351, a: 1}
+    - Vector3_440A29EA: {r: 0, g: 0, b: -8.1, a: 0}
+    - Vector3_A88156A9: {r: 0, g: 0, b: 1, a: 0}
+    - Vector4_12D040FD: {r: 14.97, g: 0, b: 1.07, a: 0}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _NotesPos: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
