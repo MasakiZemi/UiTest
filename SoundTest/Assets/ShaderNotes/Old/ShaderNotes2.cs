@@ -9,10 +9,10 @@ public class ShaderNotes2 : MonoBehaviour
     public GameObject startPosObj;
 
     Material material;
+    Vector3 worldStartPos;
     Vector3 startPos;
     Vector3 endPos;
     public float interval;
-    bool onStart;
 
     [Serializable]
     public class Notes
@@ -34,14 +34,15 @@ public class ShaderNotes2 : MonoBehaviour
     void Start()
     {
         material = GetComponent<Renderer>().material;
-        startPos = startPosObj.transform.position;
-        endPos = transform.GetChild(0).gameObject.transform.position;
-        float dis = startPos.z - (transform.position.z + transform.localScale.z / 2);
-        interval = startPos.z / speed;
+        worldStartPos = startPosObj.transform.position;
+        startPos= transform.GetChild(0).gameObject.transform.position;
+        endPos = transform.GetChild(1).gameObject.transform.position * -1;
+        float dis = worldStartPos.z - (transform.position.z + transform.localScale.z / 2);
+        interval = dis / speed;
 
         for (int i = 0; i < notesArr.Length; i++)
         {
-            //notesArr[i] = new Notes(startPos);
+            notesArr[i] = new Notes(-startPos.z);
             material.SetFloat("_Pos" + i, startPos.z * -1);
         }
     }
@@ -61,7 +62,7 @@ public class ShaderNotes2 : MonoBehaviour
             }
         }
 
-        for(int i = 0; i < notesArr.Length; i++)
+        for (int i = 0; i < notesArr.Length; i++)
         {
             if (notesArr[i].onTimeStart)
             {
@@ -74,7 +75,8 @@ public class ShaderNotes2 : MonoBehaviour
 
                     if (notesArr[i].setShaderFloat >= endPos.z)
                     {
-                        //notesArr[i] = new Notes();
+                        notesArr[i] = new Notes(-startPos.z);
+                        material.SetFloat("_Pos" + i, -startPos.z);
                     }
                 }
             }
