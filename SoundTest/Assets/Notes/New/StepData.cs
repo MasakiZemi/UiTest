@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
+using System.Linq;
+using System;
 
 public class StepData : MonoBehaviour
 {
@@ -43,6 +45,7 @@ public class StepData : MonoBehaviour
         public float musicScore;                    //時間
     }
     public List<Data> stepData = new List<Data>();
+    public List<float> textTime = new List<float>();
 
     static StepData StepData_;  //自身を参照用
 
@@ -60,6 +63,8 @@ public class StepData : MonoBehaviour
         {
             string[] arr = str.Split(',');                           //（,）カンマで分ける
             stepData.Add(new Data());
+
+            textTime.Add(float.Parse(arr[(int)INPUT_TEXT.MusicScore]));
 
             stepData[count].musicScore = float.Parse(arr[(int)INPUT_TEXT.MusicScore]);
             stepData[count].ememyAttackType = (ENEMY_ATTACK_TYPE)int.Parse(arr[(int)INPUT_TEXT.EnemyAttackType]);
@@ -85,6 +90,17 @@ public class StepData : MonoBehaviour
     {
     }
 
-    public static List<Data> GetStepData { get { return StepData_.stepData; } }     //音楽データ渡す
+    //timeに一番近いテキスト内サウンド時間の配列番号を返す
+    static public int GetTimeNearBeatTime(float time)
+    {
+        //目的の値に最も近い値を返す
+        var min = StepData_.textTime.Min(c => Math.Abs(c - time));
+        int num = StepData_.textTime.IndexOf(StepData_.textTime.First(c => Math.Abs(c - time) == min));
+        return num;
+    }
+
+    public static List<Data> GetStepData { get { return StepData_.stepData; } }     //音楽データ渡
     public static float GetSoundPlayTime { get { return StepData_.source.time; } }  //曲の再生時間渡す
+    public static float GetSoundMaxTime { get{ return StepData_.source.clip.length; } }
+
 }
