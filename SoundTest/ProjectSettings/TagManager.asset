@@ -16,6 +16,8 @@ TagManager:
   - AttNothing
   - AttWave
   - AttThrow
+  - PlNothing
+  - PlNormalStep
   layers:
   - Default
   - TransparentFX
