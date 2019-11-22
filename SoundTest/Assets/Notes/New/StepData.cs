@@ -102,5 +102,6 @@ public class StepData : MonoBehaviour
     public static List<Data> GetStepData { get { return StepData_.stepData; } }     //音楽データ渡
     public static float GetSoundPlayTime { get { return StepData_.source.time; } }  //曲の再生時間渡す
     public static float GetSoundMaxTime { get{ return StepData_.source.clip.length; } }
+    public static string GetScoreLink { get { return StepData_.fileName; } }
 
 }
