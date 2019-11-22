@@ -13,6 +13,9 @@ TagManager:
   - FrgObj
   - False
   - True
+  - AttNothing
+  - AttWave
+  - AttThrow
   layers:
   - Default
   - TransparentFX

@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class ObjGenerator : MonoBehaviour
 {
     public Slider slider;
-    public GameObject laneObj;
+    public GameObject laneObj0;
+    public GameObject laneObj1;
     public GameObject groupObj;
     public Material laneMaterial0, laneMaterial1;
 
@@ -26,7 +27,7 @@ public class ObjGenerator : MonoBehaviour
     {
         if (SoundControl.onMusic)
         {
-            if (slider.value !=0)
+            if (slider.value != 0)
             {
                 move -= speed * Time.deltaTime;
                 groupObj.transform.position = new Vector3(0, move, 0);
@@ -46,24 +47,20 @@ public class ObjGenerator : MonoBehaviour
 
     void Instant()
     {
-        int num = 0;
         for (int i = 0; i < StepData.GetStepData.Count; i++)
         {
-            for (int f = 0; f < StepData.GetStepData[0].enemyAttackPos.Length; f++)
+            if (i % 2 == 0)
             {
-                GameObject instant = Instantiate(laneObj, new Vector3(f, i, 0.001f), new Quaternion());
+                GameObject instant = Instantiate(laneObj0, new Vector3(0, i, 0.001f), new Quaternion());
                 instant.transform.parent = groupObj.transform;
-                if (f % 2 == num)
-                {
-                    instant.GetComponent<Renderer>().material = laneMaterial0;
-                }
-                else
-                {
-                    instant.GetComponent<Renderer>().material = laneMaterial1;
-                }
             }
-            if (num == 0) num = 1;
-            else num = 0;
+            else
+            {
+                GameObject instant = Instantiate(laneObj1, new Vector3(0, i, 0.001f), new Quaternion());
+                instant.transform.parent = groupObj.transform;
+            }
+
         }
+
     }
 }
