@@ -277,6 +277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreName: aaa
+  fileName: Assets/SoundEditor2/Score/
   source: {fileID: 245410347}
 --- !u!1 &1137205427
 GameObject:

@@ -50,13 +50,15 @@ public class NotesManager2 : MonoBehaviour
         //テキストに登録されている時間が来たらノーツを生成する
         if (StepData.GetSoundPlayTime > StepData.GetStepData[stepDataCount].musicScore - fixTime)
         {
-            //Debug.Log(StepData.GetStepData[stepDataCount].plStep);
+            //ステップの指示がされている場合ノーツを生成
             if (StepData.GetStepData[stepDataCount].plStep != StepData.PL_STEP_TIMING.Nothing)
             {
                 notesRightList.Add(Spawn(angle));
                 notesLeftList.Add(Spawn(-angle));
-                stepDataCount++;
             }
+
+            //再生時間よりテキストデータの時間が遅い場合リストのカウントを進める
+            stepDataCount++;
         }
 
 
