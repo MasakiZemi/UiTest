@@ -7,16 +7,21 @@ public class GroundBloc : MonoBehaviour
     public GameObject obj;
     public float space = 0.2f;
     public int count = 10;
-    List<GameObject> objList = new List<GameObject>();
+    public static List<GameObject> objList = new List<GameObject>();
 
+    private void Awake()
+    {
+        float sizZ = obj.transform.localScale.z;
+        for (int i = 0; i < count; i++)
+        {
+            objList.Add(Instantiate(obj, new Vector3(0, 0, (space + sizZ) * i), new Quaternion()));
+            objList[objList.Count - 1].SetActive(false);
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {
-        float sizZ = obj.transform.localScale.z;
-        for(int i = 0; i < count; i++)
-        {
-            objList.Add(Instantiate(obj, new Vector3(0, 0, (space+ sizZ) * i), new Quaternion()));
-        }
+       
     }
 
     // Update is called once per frame
@@ -24,4 +29,7 @@ public class GroundBloc : MonoBehaviour
     {
         
     }
+
+    //public static List<GameObject> GetGroundBlock {get { return objList; } }
+
 }
