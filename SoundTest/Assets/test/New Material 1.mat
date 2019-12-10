@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Material
-  m_Shader: {fileID: 4800000, guid: f2d07127f59dd81439364fe2e7050551, type: 3}
-  m_ShaderKeywords: _EMISSION
-  m_LightmapFlags: 2
+  m_Name: New Material 1
+  m_Shader: {fileID: 4800000, guid: 2a056f8c54e05a543ab8455ca5b9f58e, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -44,11 +44,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_1B20BF88: 0.2
-    - Vector1_79470EF6: 0.42
-    - Vector1_90A970D2: 25
-    - Vector1_9F50EE01: 2
-    - Vector1_E08379C9: 8
+    - Vector1_79470EF6: 0.17
+    - Vector1_90A970D2: 28.67
+    - Vector1_9F50EE01: 1
+    - Vector1_D9E4CDB5: 0.01
+    - Vector1_E08379C9: 3
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -70,5 +70,5 @@ Material:
     m_Colors:
     - Color_782551FF: {r: 0.3443396, g: 1, b: 0.968778, a: 0}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _EmissionColor: {r: 0.63612556, g: 0.24447179, b: 0.24447179, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
