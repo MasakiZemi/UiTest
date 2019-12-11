@@ -8,8 +8,9 @@ public class PlAttackBeam : MonoBehaviour
     public GameObject beamObj;
     public float speed = 5;
     public float rad = 5;
-    
-    Vector3 targetPos;
+    public int spawnCount = 4;
+
+    List<GameObject> beamObjList = new List<GameObject>();
 
     // Start is called before the first frame update
     void Start()
@@ -20,9 +21,21 @@ public class PlAttackBeam : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ///if()
+        if (OnTrigger())
+        {
+            beamObjList = new List<GameObject>(InstantCirclePos(spawnCount, beamObj, rad));
+        }
+
+        foreach(GameObject obj in beamObjList)
+        {
+            Vector3 pos = obj.transform.position;
+            pos = Vector3.MoveTowards(pos, targetObj.transform.position, speed * Time.deltaTime);
+            obj.transform.LookAt(targetObj.transform);
+            obj.transform.position = pos;
+        }
     }
 
+    //半円状にオブジェクトを生成
     List<GameObject> InstantCirclePos(int count, GameObject obj, float radius)
     {
         List<GameObject> objList = new List<GameObject>();
@@ -54,5 +67,10 @@ public class PlAttackBeam : MonoBehaviour
 
             return pos;
         }
+    }
+
+    bool OnTrigger()
+    {
+        return Input.GetKeyDown(KeyCode.Alpha3);
     }
 }
