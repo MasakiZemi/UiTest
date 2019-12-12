@@ -6,7 +6,7 @@ public class ModeSymbol : MonoBehaviour
 {
     enum Mode { Pl,Enemy}
     public GameObject symbolObj;
-    public GameObject
+    //public GameObject
 
 
     // Start is called before the first frame update
@@ -18,6 +18,6 @@ public class ModeSymbol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        symbolObj.transform.position=MouseStatus.Get
+        //symbolObj.transform.position=MouseStatus.Get
     }
 }
