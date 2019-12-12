@@ -10,10 +10,26 @@ public class ScoreObjBool : MonoBehaviour
 
     public bool on;
 
+    void Awake()
+    {
+        material = GetComponent<Renderer>().material;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        material = GetComponent<Renderer>().material;
+        int x = (int)transform.localPosition.x;
+        int y = (int)transform.localPosition.y;
+        on = StepData.GetStepData[y].enemyAttackPos[x];
+
+        if (on)
+        {
+            GetComponent<Renderer>().material = changeMaterial;
+        }
+        else
+        {
+            GetComponent<Renderer>().material = material;
+        }
     }
 
     // Update is called once per frame

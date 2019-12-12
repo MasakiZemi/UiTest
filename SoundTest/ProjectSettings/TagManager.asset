@@ -20,6 +20,9 @@ TagManager:
   - PlNormalStep
   - EnemyMode
   - PlMode
+  - ScoreObjBool
+  - ScoreObjPl
+  - ScoreObjEnemy
   layers:
   - Default
   - TransparentFX

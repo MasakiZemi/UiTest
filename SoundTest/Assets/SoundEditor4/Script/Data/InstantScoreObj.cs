@@ -15,10 +15,15 @@ public class InstantScoreObj : MonoBehaviour
     public GameObject plObjGroup;
     public GameObject enemyObjGroup;
 
+    void Awake()
+    {
+        InstantObj();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        InstantObj();
+        
     }
 
     // Update is called once per frame
@@ -29,19 +34,21 @@ public class InstantScoreObj : MonoBehaviour
 
     void InstantObj()
     {
-        for (int i = (int)StepData.INPUT_TEXT.EnemyAttackLane0 - 2; i < (int)StepData.INPUT_TEXT.EnemyAttackLane5 - 2; i++)
+
+        for (int f = 0; f < StepData.GetStepData.Count; f++)
         {
-            for (int f = 0; f < StepData.GetStepData.Count; f++)
+            GameObject obj;
+            for (int i = (int)StepData.INPUT_TEXT.EnemyAttackLane0 - 2; i < (int)StepData.INPUT_TEXT.EnemyAttackLane5 - 2; i++)
             {
-                GameObject obj = BoolObjInstant(i, f);
+                 obj= BoolObjInstant(i, f);
                 obj.transform.parent = boolObjGroup.transform;
-
-                obj = Instantiate(plObj, new Vector3((int)StepData.INPUT_TEXT.EnemyAttackLane5, f, 0), new Quaternion());
-                obj.transform.parent = plObjGroup.transform;
-
-                obj = Instantiate(plObj, new Vector3((int)StepData.INPUT_TEXT.EnemyAttackLane5 + 1, f, 0), new Quaternion());
-                obj.transform.parent = plObjGroup.transform;
             }
+
+            obj = Instantiate(enemyObj, new Vector3((int)StepData.INPUT_TEXT.EnemyAttackLane5, f, 0), new Quaternion());
+            obj.transform.parent = enemyObjGroup.transform;
+
+            obj = Instantiate(plObj, new Vector3((int)StepData.INPUT_TEXT.EnemyAttackLane5 + 1, f, 0), new Quaternion());
+            obj.transform.parent = plObjGroup.transform;
         }
 
         GameObject BoolObjInstant(int x, int y)

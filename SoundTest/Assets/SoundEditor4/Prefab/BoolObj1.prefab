@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 3489308303539954294}
   - component: {fileID: 3636243624307733560}
   - component: {fileID: 275819562980952454}
+  - component: {fileID: 8127695615579706427}
   m_Layer: 0
   m_Name: BoolObj1
-  m_TagString: Untagged
+  m_TagString: ScoreObjBool
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92,3 +93,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &8127695615579706427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2451476290692089266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1085bd7c64a61a42b387a764b863492, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick: 0
+  changeMaterial: {fileID: 0}
+  on: 0

@@ -10,7 +10,18 @@ public class ScoreObjEnemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        enemyAttackType = StepData.ENEMY_ATTACK_TYPE.Nothing;
+        GameObject obj = EnemyModeGroup.obj;
+        int num = (int)transform.localPosition.y;
+        for(int i=0; i < obj.transform.childCount - 1;i++)
+        {
+            StepData.ENEMY_ATTACK_TYPE enemy = StepData.GetStepData[num].ememyAttackType;
+            if (enemy == obj.transform.GetChild(i).gameObject.GetComponent<EnemyModeObj>().enemyModeType)
+            {
+                enemyAttackType = enemy;
+                GetComponent<Renderer>().material = obj.transform.GetChild(i).gameObject.GetComponent<Renderer>().material;
+                break;
+            }
+        }
     }
 
     // Update is called once per frame

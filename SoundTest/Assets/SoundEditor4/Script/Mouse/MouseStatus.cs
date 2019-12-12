@@ -45,12 +45,14 @@ public class MouseStatus : MonoBehaviour
                     case "EnemyMode":
                         GetEnemyAttackType = obj.GetComponent<EnemyModeObj>().enemyModeType;
                         GetEnemyMaterial = obj.GetComponent<Renderer>().material;
+                        Debug.Log(obj.GetComponent<Renderer>().material);
                         GetEnemyModePos = obj.transform.position;
                         break;
 
                     case "PlMode":
                         GetPlStepTiming = obj.GetComponent<PlModeObj>().plModeType;
                         GetPlMaterial = obj.GetComponent<Renderer>().material;
+
                         GetPlModePos = obj.transform.position;
                         break;
 
