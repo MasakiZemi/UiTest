@@ -18,6 +18,8 @@ TagManager:
   - AttThrow
   - PlNothing
   - PlNormalStep
+  - EnemyMode
+  - PlMode
   layers:
   - Default
   - TransparentFX

@@ -12,12 +12,19 @@ public class MouseStatus : MonoBehaviour
     public static Material GetEnemyMaterial { get; private set; }
     public static Vector3 GetEnemyModePos { get; private set; }
 
-
+    public GameObject plModeDefault;
+    public GameObject enemyModeDefault;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        GetPlStepTiming = StepData.PL_STEP_TIMING.Nothing;
+        GetPlMaterial = plModeDefault.GetComponent<Renderer>().material;
+        GetPlModePos = plModeDefault.transform.position;
+
+        GetEnemyAttackType = StepData.ENEMY_ATTACK_TYPE.Nothing;
+        GetEnemyMaterial= enemyModeDefault.GetComponent<Renderer>().material;
+        GetEnemyModePos= enemyModeDefault.transform.position;
     }
 
     // Update is called once per frame
@@ -47,9 +54,22 @@ public class MouseStatus : MonoBehaviour
                         GetPlModePos = obj.transform.position;
                         break;
 
+                    case "ScoreObjBool":
+                        obj.GetComponent<ScoreObjBool>().onClick = true;
+                        break;
+
+                    case "ScoreObjEnemy":
+                        obj.GetComponent<ScoreObjEnemy>().onClick = true;
+                        break;
+
+                    case "ScoreObjPl":
+                        obj.GetComponent<ScoreObjPl>().onClick = true;
+                        break;
+
                     default:break;
                 }
             }
         }
     }
+
 }

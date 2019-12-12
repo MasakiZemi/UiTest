@@ -26,13 +26,14 @@ public class StepData : MonoBehaviour
     public enum PL_STEP_TIMING      //プレイヤーのノーツの種類
     {
         Nothing,
-        Step,
+        Step
     }
     public enum ENEMY_ATTACK_TYPE   //敵の攻撃の種類
     {
         Nothing,
         WaveWide,
-        Throw
+        Throw,
+        WaveUnder
     }
 
     public class Data
