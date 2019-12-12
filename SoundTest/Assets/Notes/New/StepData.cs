@@ -93,9 +93,13 @@ public class StepData : MonoBehaviour
     //timeに一番近いテキスト内サウンド時間の配列番号を返す
     static public int GetTimeNearBeatTime(float time)
     {
+        int num = 0;
         //目的の値に最も近い値を返す
-        var min = StepData_.textTime.Min(c => Math.Abs(c - time));
-        int num = StepData_.textTime.IndexOf(StepData_.textTime.First(c => Math.Abs(c - time) == min));
+        if (File.Exists(StepData_.fileName))
+        {
+            var min = StepData_.textTime.Min(c => Math.Abs(c - time));
+            num = StepData_.textTime.IndexOf(StepData_.textTime.First(c => Math.Abs(c - time) == min));
+        }
         return num;
     }
 
