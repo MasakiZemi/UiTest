@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// UIの選択している位置がわかるようにするやつ
+/// </summary>
 public class ModeSymbol : MonoBehaviour
 {
     public enum Mode { Pl,Enemy}
@@ -18,6 +21,7 @@ public class ModeSymbol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //クリックしたときに取得した座標データをもとに、位置を動かす
         switch (mode)
         {
             case Mode.Pl:

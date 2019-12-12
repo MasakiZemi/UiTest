@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// UIのプレイヤーデータ
+/// </summary>
 public class PlModeObj : MonoBehaviour
 {
     public StepData.PL_STEP_TIMING plModeType;

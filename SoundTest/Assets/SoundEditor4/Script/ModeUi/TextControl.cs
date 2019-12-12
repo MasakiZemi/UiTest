@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// インフォメーション用のテキストを操作
+/// </summary>
 public class TextControl : MonoBehaviour
 {
     public TextMesh enemyInfo;

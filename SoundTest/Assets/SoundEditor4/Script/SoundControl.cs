@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// シークバー使ったサウンド再生位置の操作
+/// </summary>
 public class SoundControl : MonoBehaviour
 {
     public Slider slider;   //再生バー用

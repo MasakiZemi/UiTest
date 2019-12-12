@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// 生成したオブジェクトを再生位置と合うように動かす
+/// </summary>
 public class ScoreObjMove : MonoBehaviour
 {
     public Slider slider;

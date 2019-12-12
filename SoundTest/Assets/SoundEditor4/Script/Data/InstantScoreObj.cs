@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// 譜面オブジェクトの生成
+/// </summary>
 public class InstantScoreObj : MonoBehaviour
 {
     [Header("生成するオブジェクト")]
@@ -38,19 +41,24 @@ public class InstantScoreObj : MonoBehaviour
         for (int f = 0; f < StepData.GetStepData.Count; f++)
         {
             GameObject obj;
+
+            //敵の攻撃位置を判別するためのオブジェクト生成
             for (int i = (int)StepData.INPUT_TEXT.EnemyAttackLane0 - 2; i < (int)StepData.INPUT_TEXT.EnemyAttackLane5 - 2; i++)
             {
-                 obj= BoolObjInstant(i, f);
+                obj = BoolObjInstant(i, f);
                 obj.transform.parent = boolObjGroup.transform;
             }
 
+            //敵の攻撃タイプを判別するためのオブジェクト生成
             obj = Instantiate(enemyObj, new Vector3((int)StepData.INPUT_TEXT.EnemyAttackLane5, f, 0), new Quaternion());
             obj.transform.parent = enemyObjGroup.transform;
 
+            //プレイヤーのステップ位置を判別するためのオブジェクト生成
             obj = Instantiate(plObj, new Vector3((int)StepData.INPUT_TEXT.EnemyAttackLane5 + 1, f, 0), new Quaternion());
             obj.transform.parent = plObjGroup.transform;
         }
 
+        //格子状にするためのやつ
         GameObject BoolObjInstant(int x, int y)
         {
             if (x % 2 == 0)

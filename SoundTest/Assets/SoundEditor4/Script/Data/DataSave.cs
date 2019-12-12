@@ -4,6 +4,9 @@ using UnityEngine;
 using System.IO;
 using System;
 
+/// <summary>
+/// テキストにデータを上書きすることができる
+/// </summary>
 public class DataSave : MonoBehaviour
 {
     public int bar = 4;         //拍子
@@ -12,6 +15,7 @@ public class DataSave : MonoBehaviour
 
     float barTime;
 
+    //胆略か用
     GameObject boolObjGroup;
     GameObject plObjGroup;
     GameObject enemyObjGroup;
@@ -21,6 +25,7 @@ public class DataSave : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //初期化
         plObjGroup = transform.GetChild(2).gameObject;
         for (int i = 0; i < plObjGroup.transform.childCount; i++)
         {
@@ -48,23 +53,26 @@ public class DataSave : MonoBehaviour
         barTime = 60 * (float)bar * 1 / (float)tempo;
         barTime = barTime / beat;
 
+        //子オブジェクトを取得
         boolObjGroup = transform.GetChild(0).gameObject;
         plObjGroup = transform.GetChild(1).gameObject;
         enemyObjGroup = transform.GetChild(2).gameObject;
 
-        //敵の攻撃座標
         while (true)
         {
+            //敵の攻撃座標
             for (int i = (int)StepData.INPUT_TEXT.EnemyAttackLane0 - 2; i < (int)StepData.INPUT_TEXT.EnemyAttackLane5 - 2; i++)
             {
+                //オブジェクトの位置をもとにデータを代入していく
                 int x = (int)boolObjGroup.transform.GetChild(boolCount).gameObject.transform.localPosition.x;
                 int y = (int)boolObjGroup.transform.GetChild(boolCount).gameObject.transform.localPosition.y;
+                //オブジェクトが持っている情報を取得する
                 ScoreObjBool objBoolScript = boolObjGroup.transform.GetChild(boolCount).gameObject.GetComponent<ScoreObjBool>();
                 dataList[y].enemyAttackPos[x] = objBoolScript.on;
                 boolCount++;
             }
 
-
+            //テンポ時間の計算
             float time = barTime * count;
 
             //プレイヤーのノーツ
