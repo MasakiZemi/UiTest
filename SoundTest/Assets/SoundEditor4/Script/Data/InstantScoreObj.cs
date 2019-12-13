@@ -43,7 +43,7 @@ public class InstantScoreObj : MonoBehaviour
             GameObject obj;
 
             //敵の攻撃位置を判別するためのオブジェクト生成
-            for (int i = (int)StepData.INPUT_TEXT.EnemyAttackLane0 - 2; i < (int)StepData.INPUT_TEXT.EnemyAttackLane5 - 2; i++)
+            for (int i = (int)StepData.INPUT_TEXT.EnemyAttackLane0 - 2; i <= (int)StepData.INPUT_TEXT.EnemyAttackLane5 - 2; i++)
             {
                 obj = BoolObjInstant(i, f);
                 obj.transform.parent = boolObjGroup.transform;
