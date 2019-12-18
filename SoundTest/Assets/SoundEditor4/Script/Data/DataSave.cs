@@ -61,7 +61,7 @@ public class DataSave : MonoBehaviour
         while (true)
         {
             //敵の攻撃座標
-            for (int i = (int)StepData.INPUT_TEXT.EnemyAttackLane0 - 2; i < (int)StepData.INPUT_TEXT.EnemyAttackLane5 - 2; i++)
+            for (int i = (int)StepData.INPUT_TEXT.EnemyAttackLane0 - 2; i <= (int)StepData.INPUT_TEXT.EnemyAttackLane5 - 2; i++)
             {
                 //オブジェクトの位置をもとにデータを代入していく
                 int x = (int)boolObjGroup.transform.GetChild(boolCount).gameObject.transform.localPosition.x;

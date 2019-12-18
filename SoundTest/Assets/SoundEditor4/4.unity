@@ -599,7 +599,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb16d1ecb3f3937498b02e750c1e6ea8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreName: Hard
+  scoreName: Easy
   fileName: Assets/SoundEditor2/Score/
   source: {fileID: 575480836}
   stepData: []
