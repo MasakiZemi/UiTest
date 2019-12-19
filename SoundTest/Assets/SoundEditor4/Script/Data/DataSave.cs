@@ -25,11 +25,18 @@ public class DataSave : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //初期化
-        plObjGroup = transform.GetChild(2).gameObject;
-        for (int i = 0; i < plObjGroup.transform.childCount; i++)
+        barTime = 60 * (float)bar * 1 / (float)tempo;
+        barTime = barTime / beat;
+        int count = 0;
+
+        while (true)
         {
             dataList.Add(new StepData.Data());
+
+            //テンポ時間の計算
+            float time = barTime * count;
+            if (time >= StepData.GetSoundMaxTime) break;
+            count++;
         }
     }
 
@@ -39,6 +46,11 @@ public class DataSave : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.S))
         {
             Save();
+        }
+
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            //Create();
         }
     }
 
@@ -97,5 +109,48 @@ public class DataSave : MonoBehaviour
         //テキストに書き出し
         File.WriteAllLines(StepData.GetScoreLink, strList);
 
+    }
+
+    void Create()
+    {
+        List<string> strList = new List<string>();
+        int boolCount = 0, count = 0;
+
+        //一小節の時間の計算
+        //60*拍子*小節数/テンポ
+        barTime = 60 * (float)bar * 1 / (float)tempo;
+        barTime = barTime / beat;
+
+        while (true)
+        {
+            //敵の攻撃座標
+            for (int i = (int)StepData.INPUT_TEXT.EnemyAttackLane0 - 2; i <= (int)StepData.INPUT_TEXT.EnemyAttackLane5 - 2; i++)
+            {
+                dataList[count].enemyAttackPos[i] = false;
+                //boolCount++;
+            }
+
+            //テンポ時間の計算
+            float time = barTime * count;
+
+            //プレイヤーのノーツ
+            dataList[count].plStep = StepData.PL_STEP_TIMING.Nothing;
+
+            //敵の攻撃種類
+            dataList[count].ememyAttackType = StepData.ENEMY_ATTACK_TYPE.Nothing;
+
+            //リストに格納
+            strList.Add(time + "," + (int)dataList[count].ememyAttackType +
+                    "," + dataList[count].enemyAttackPos[0] + "," + dataList[count].enemyAttackPos[1] +
+                    "," + dataList[count].enemyAttackPos[2] + "," + dataList[count].enemyAttackPos[3] +
+                    "," + dataList[count].enemyAttackPos[4] + "," + dataList[count].enemyAttackPos[5] +
+                    "," + (int)dataList[count].plStep);
+
+            if (time >= StepData.GetSoundMaxTime) break;
+            count++;
+        }
+
+        //テキストに書き出し
+        File.WriteAllLines(StepData.GetScoreLink, strList);
     }
 }
